@@ -1,0 +1,98 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackCardViewMenuPrincp">
+
+        <ImageView
+            android:id="@+id/imagenSearchRecarga"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorBackCardViewMenuPrincp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvMinSearchRecarga"
+            android:layout_toRightOf="@+id/imagenSearchRecarga"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvOperSearchRecarga"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/imagenSearchRecarga"
+            android:layout_below="@+id/tvMinSearchRecarga"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/colorBackCardViewMenuPrincp"
+            android:layout_below="@+id/tvOperSearchRecarga"
+            android:id="@+id/lineaBody"
+            android:layout_toRightOf="@+id/imagenSearchRecarga"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvValueSearchRecarga"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/imagenSearchRecarga"
+            android:layout_below="@+id/lineaBody"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvNumAutorizSearchRecarga"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/imagenSearchRecarga"
+            android:layout_below="@+id/tvValueSearchRecarga"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/colorBackCardViewMenuPrincp"
+            android:layout_below="@+id/tvNumAutorizSearchRecarga"
+            android:id="@+id/lineaEnd_one"
+            android:layout_toRightOf="@+id/imagenSearchRecarga"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5"
+            android:id="@+id/lineaEnd_two"
+            android:layout_toRightOf="@+id/imagenSearchRecarga">
+        </View>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LastTransActivity"
+    android:background="@color/colorInitBack">
+
+
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_login" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorInitBack"/>
+
+
+    <FrameLayout
+        android:id="@+id/frameCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/llHeader">
+
+        <LinearLayout
+            android:id="@+id/ly_big"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorInitBack">
+
+
+
+
+
+
+                        <android.support.design.widget.TabLayout
+                            android:id="@+id/tabLayoutCategoria"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+                            app:tabTextColor="@color/colorLoginBackBody"
+                            app:tabSelectedTextColor="@color/colorLoginBackBody"
+                            app:tabIndicatorColor="@color/colorAccent">
+
+
+
+                        </android.support.design.widget.TabLayout>
+
+
+
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+                </android.support.v4.view.ViewPager>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

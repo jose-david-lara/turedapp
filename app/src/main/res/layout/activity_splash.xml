@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <LinearLayout android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorInitBack">
+
+        <ImageView
+            android:id="@+id/img"
+            android:src="@drawable/logo_cargando"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/loading"
+            android:layout_marginTop="12dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/img"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/text_carga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/loading"
+            android:text="Cargando"
+            android:textSize="15dp"
+            android:textColor="@color/ic_launcher_background"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/text_develop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/text_carga"
+            android:text="@string/name_develop"
+            android:textSize="15dp"
+            android:textColor="@color/ic_launcher_background"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/text_develop_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/text_carga"
+            android:text="@string/name_develop_web"
+            android:textSize="15dp"
+            android:textColor="@color/ic_launcher_background"
+            android:gravity="center" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

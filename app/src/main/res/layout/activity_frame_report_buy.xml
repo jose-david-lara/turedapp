@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.frame.BuyReportFrameActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_marginTop="30sp"
+        android:id="@+id/scrollLayoutBuy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorInitBack">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorInitBack">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ly_one_buy"
+            android:background="@color/colorInitBack">
+
+            <Button
+                android:id="@+id/buttonReportBuyYerterday"
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/button_purp"
+                android:onClick="onClick"
+                android:layout_gravity="center"
+                android:text="@string/text_button_uno_dias_pasados"
+                android:textAllCaps="false"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/buttonReportBuyDayActul"
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/button_purp"
+                android:onClick="onClick"
+                android:text="@string/text_button_dia_actual"
+                android:textAllCaps="false"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp" />
+
+
+            <!--<EditText
+                android:id="@+id/capFechaInicialBuy"
+                android:layout_width="180sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/edittext_rounded"
+                android:drawableRight="@drawable/ic_action_cap_fecha"
+                android:hint="@string/text_cap_fecha_inicial"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:onClick="onClick"
+                android:textColor="@color/colorInitBack"
+                android:textColorHint="@color/colorInitBack"
+                android:inputType="date"
+                android:textSize="15sp"
+                android:maxLines="1"
+
+                android:singleLine="true"/>
+
+
+
+            <EditText
+                android:id="@+id/capFechaFinalBuy"
+                android:layout_width="180sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/edittext_rounded"
+                android:drawableRight="@drawable/ic_action_cap_fecha"
+                android:hint="@string/text_cap_fecha_final"
+                android:inputType="date"
+                android:maxLines="1"
+                android:onClick="onClick"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:singleLine="true"
+                android:layout_below="@+id/capFechaInicialBuy"
+                android:textColor="@color/colorInitBack"
+                android:textColorHint="@color/colorInitBack"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/buttonBuscarReportBuy"
+                android:layout_width="120sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:layout_below="@+id/capFechaFinalBuy"
+                android:background="@drawable/button_purp"
+                android:onClick="onClick"
+                android:text="@string/text_button_buscar"
+                android:textAllCaps="false"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ly_three_buy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ly_one_buy"
+            android:layout_marginTop="20sp"
+            android:background="@color/colorInitBack"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/textFechaRangosBuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:id="@+id/textSaldoTotalReportBuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:id="@+id/TablaReportBuy"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                    </TableLayout>
+
+
+                </HorizontalScrollView>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <!--<RelativeLayout
+            android:layout_below="@+id/ly_one_buy"
+            android:id="@+id/relativeOneBodyBuy"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#302c4c">
+
+
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:background="@drawable/border">
+                <TextView
+                    android:textColor="#ffff"
+                    android:id="@+id/textcompras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:text="@string/text_compras"
+                    android:gravity="center"
+                    android:layout_span="6"/>
+            </TableRow>
+
+
+            <LinearLayout
+                android:layout_below="@+id/tableRow4"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ly_one_buy_t"
+                android:background="@drawable/border">
+
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:layout_marginTop="20sp"
+                        android:textColor="#ffff"
+                        android:text="@string/text_recargas"
+                        android:textSize="20sp"
+                        android:id="@+id/textrecargas"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="150sp">
+                    <TextView
+                        android:textColor="#ffff"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/text_wplay"
+                        android:id="@+id/textwplay"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:textColor="#ffff"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/text_soat"
+                        android:id="@+id/textsoat"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+
+
+                </TableRow>
+
+                <View
+                    android:layout_marginTop="30sp"
+                    android:id="@+id/divider_buy_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorLoginBackBody" />
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:textColor="#ffff"
+                        android:text="@string/text_total"
+                        android:id="@+id/texttotal"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableRow4"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/ly_one_buy_t"
+                android:id="@+id/ly_two_t"
+                android:background="@drawable/border"
+                android:layout_toEndOf="@+id/ly_one_buy_t">
+
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableRow2_v"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:textColor="#ffff"
+                        android:layout_marginTop="20sp"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:id="@+id/pricerecarga"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:textColor="#ffff"
+                        android:layout_marginTop="10sp"
+                        android:text=""
+                        android:id="@+id/pricewplay"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblsoat"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="wrap_content">
+                    <TextView
+                        android:textColor="#ffff"
+                        android:layout_marginTop="10sp"
+                        android:text=""
+                        android:id="@+id/pricesoat"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+
+
+                <View
+                    android:layout_marginTop="30sp"
+                    android:id="@+id/divider_buy_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorLoginBackBody" />
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="wrap_content">
+
+                    <TextView
+                        android:textColor="#ffff"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:id="@+id/pricetotal"
+                        android:layout_width="match_parent"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+            </LinearLayout>
+        </RelativeLayout>-->
+
+
+    </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

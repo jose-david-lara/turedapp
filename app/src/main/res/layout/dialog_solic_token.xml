@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/dialog_body">
+
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:paddingBottom="@dimen/padding_between"
+        android:paddingTop="@dimen/padding_between"
+        android:text="@string/text_info_solict_token"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/info_text"
+        android:layout_marginBottom="@dimen/padding_between"
+        android:layout_marginTop="@dimen/padding_between"
+        android:background="#C8C9CB" />
+
+    <EditText
+        android:id="@+id/clave_solicit_token"
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_rounded"
+        android:drawableRight="@drawable/ic_action_cap_pass"
+        android:ems="10"
+        android:hint="@string/text_cap_pass_init"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+
+    <Button
+        android:id="@+id/entrar_boton_solicit_token"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/clave_solicit_token"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_rosado"
+        android:paddingBottom="@dimen/button_padding"
+        android:paddingTop="@dimen/button_padding"
+        android:text="@string/text_button_init"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/cancelar_boton_solicit_token"
+        android:layout_below="@+id/entrar_boton_solicit_token"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_rosado"
+        android:paddingBottom="@dimen/button_padding"
+        android:paddingTop="@dimen/button_padding"
+        android:text="@string/text_boton_cancelar_actualizar_password"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

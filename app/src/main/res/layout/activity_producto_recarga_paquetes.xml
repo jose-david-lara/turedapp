@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PagPrincipalRecargaPaquetes">
+
+
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_pag_producto_recarga" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorInitBack" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollLayout"
+        android:layout_below="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/body_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/headboard"
+            android:background="@color/white"
+            android:orientation="vertical">
+         <ImageView
+            android:contentDescription="@string/text_logo_init_producto_recarga"
+            android:id="@+id/logoProductoRecarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textOperador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/colorInitBack"
+                android:textSize="20sp" />
+
+            <!--<Button
+                android:id="@+id/buttonRecarga"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_purp"
+                android:onClick="onClick"
+                android:text="RECARGA"
+                android:textAllCaps="false"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/buttonRecargaPaquete"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_purp"
+                android:onClick="onClick"
+                android:text="PAQUETES"
+                android:textAllCaps="false"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp" />-->
+
+        </LinearLayout>
+
+
+
+          <LinearLayout
+                android:id="@+id/body_two"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/body_one"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textPaquetes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorInitBack"
+                    android:textSize="20sp" />
+
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaOneOne">
+              </View>
+
+              <TextView
+                  android:id="@+id/textPaquetesVoz"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/RecyclerViewPagRecargaPaquetesPackVoz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaOne">
+
+              </View>
+
+              <TextView
+                  android:id="@+id/textPaquetesIncluido"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/RecyclerViewPagRecargaPaquetesTodoIncluido"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaTwo">
+
+              </View>
+
+              <TextView
+                  android:id="@+id/textPaquetesNavegacion"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/RecyclerViewPagRecargaPaquetesNavegacion"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaThree">
+
+              </View>
+
+              <TextView
+                  android:id="@+id/textPaquetesAppRedes"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/RecyclerViewPagRecargaPaquetesAppRedes"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaFor">
+
+              </View>
+
+              <TextView
+                  android:id="@+id/textPaquetesReventa"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/RecyclerViewPagRecargaPaquetesReventa"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaFive">
+
+              </View>
+              <TextView
+                  android:id="@+id/textPaquetesLargaDistancia"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/RecyclerViewPagRecargaPaquetesLargDistancia"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaSix">
+
+              </View>
+              <TextView
+                  android:id="@+id/textPaquetesTv"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/RecyclerViewPagRecargaPaquetesTv"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>
+
+              <View
+                  android:layout_width="wrap_content"
+                  android:layout_height="15dp"
+                  android:background="#ffd5d5d5"
+                  android:id="@+id/lineaSeven">
+
+              </View>
+              <TextView
+                  android:id="@+id/textPaquetesInternetInalambrico"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/RecyclerViewPagRecargaPaquetesInternetInalambrico"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"/>
+
+              <EditText
+                  android:id="@+id/capNumeroRecargaPaquete"
+                  android:layout_width="250sp"
+                  android:layout_height="40sp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="5sp"
+                  android:background="@drawable/edittext_rounded"
+                  android:hint="@string/text_num_recarga"
+                  android:paddingLeft="10sp"
+                  android:paddingRight="10sp"
+                  android:inputType="numberDecimal"
+                  android:textColor="@color/colorInitBack"
+                  android:textColorHint="@color/colorInitBack"
+                  android:textSize="15sp"
+                  android:maxLines="1"
+                  android:singleLine="true"/>
+
+              <EditText
+                  android:id="@+id/capValorRecargaPaquete"
+                  android:layout_width="250sp"
+                  android:layout_height="40sp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="5sp"
+                  android:background="@drawable/edittext_rounded"
+                  android:hint="@string/text_valor_recarga"
+                  android:paddingLeft="10sp"
+                  android:paddingRight="10sp"
+                  android:inputType="numberDecimal"
+                  android:textColor="@color/colorInitBack"
+                  android:textColorHint="@color/colorInitBack"
+                  android:textSize="15sp"
+                  android:maxLines="1"
+                  android:singleLine="true"/>
+
+              <TextView
+                  android:id="@+id/textPaqueteSeleccionado"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text=""
+                  android:textColor="@color/colorInitBack"
+                  android:textSize="20sp" />
+
+              <Button
+                  android:id="@+id/buttonCancelarPaquete"
+                  android:layout_width="150dp"
+                  android:layout_height="40dp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/button_purp"
+                  android:onClick="onClick"
+                  android:text="@string/text_boton_cancelar_valor_recarga"
+                  android:textAllCaps="false"
+                  android:textColor="@color/ic_launcher_background"
+                  android:textSize="15sp" />
+
+              <Button
+                  android:id="@+id/buttonAceptarPaquete"
+                  android:layout_width="150dp"
+                  android:layout_height="40dp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/button_purp"
+                  android:onClick="onClick"
+                  android:text="@string/text_boton_confirmar_valor_recarga"
+                  android:textAllCaps="false"
+                  android:textColor="@color/ic_launcher_background"
+                  android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ConsultSaldoActivity">
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_menu" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorInitBack" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollLayout"
+        android:layout_below="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorInitBack">
+    <LinearLayout
+        android:id="@+id/body_one"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorInitBack">
+
+        <TextView
+            android:id="@+id/textOperadorInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/text_body_actualizar_saldo"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonActualizarSaldo"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:text="@string/text_button_actualizar_saldo"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="@color/ic_launcher_background"
+            android:background="@drawable/button_rosado"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/tvTuDeudaConsulSaldo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:shadowColor="#8a6603"
+            android:shadowDx="3"
+            android:shadowDy="2"
+            android:shadowRadius="1.8"
+            android:layout_below="@+id/buttonActualizarSaldo"
+            />
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerViewConsulSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_below="@+id/tvTuDeudaConsulSaldo"
+            android:layout_marginTop="15sp"/>
+
+
+</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

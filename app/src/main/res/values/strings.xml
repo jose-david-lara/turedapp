@@ -1,0 +1,1293 @@
+<resources>
+    <string name="app_name">Tu Red</string>
+
+    <string name="name_develop">Developing by Seibis</string>
+    <string name="name_develop_web">www.seibis.com.co</string>
+
+    <string name="text_button_actualizar_saldo">Actualizar</string>
+    <string name="text_body_actualizar_saldo">Productos asignados con sus respectivos saldos</string>
+
+    <string name="text_cap_num_text_search">Digitar número</string>
+
+    //Textos init
+    <string name="text_button_init">Iniciar Sesión</string>
+    <string name="text_logo_init">Logo iniciar sesión</string>
+
+    //Textos Login
+    <string name="text_cap_user_init">Usuario</string>
+    <string name="text_cap_pass_init">Contraseña</string>
+    <string name="text_enter_init">Ingresar</string>
+    <string name="title_activity_frame">frame</string>
+
+    //Textos Menu Principal
+    <string name="text_cerrar_sesion">CERRAR SESION</string>
+    <string name="text_act_info">ACTUALIZAR TOKEN</string>
+    <string name="text_contact_info">CONTÁCTANOS</string>
+    <string name="text_close_app">CERRAR APLICACIÓN</string>
+
+    //Textos Cambio Contraseña
+    <string name="text_cambio_password_msj_body">Bienvenido por primera vez, por favor realiza el cambio de contraseña.</string>
+    <string name="text_password_actual">Contraseña Actual</string>
+    <string name="text_password_nueva">Contraseña Nueva</string>
+    <string name="text_password_nueva_confirmar">Confirmar Nueva Contraseña</string>
+    <string name="text_boton_actualizar_password">ACTUALIZAR CONTRASEÑA</string>
+    <string name="text_boton_cancelar_actualizar_password">CANCELAR</string>
+
+    //Textos Producto Recarga Principal
+    <string name="text_logo_init_producto_recarga">Logo operador</string>
+
+    //Texto Producto Inactivo
+    <string name="text_body">PRODUCTO INACTIVO</string>
+    <string name="text_button">REGRESAR</string>
+
+    //Textos Realizar Recarga
+    <string name="text_num_recarga">Numero Celular</string>
+    <string name="text_valor_recarga">Valor Recarga</string>
+    <string name="text_boton_cancelar_valor_recarga">Cancelar</string>
+    <string name="text_boton_confirmar_valor_recarga">Aceptar</string>
+
+    //Textos Reporte Transacciones
+    <string name="text_cap_fecha_inicial">Fecha Inicial</string>
+    <string name="text_cap_fecha_final">Fecha Final</string>
+    <string name="text_button_buscar">Buscar</string>
+    <string name="text_button_dia_actual">Fecha actual</string>
+    <string name="text_button_uno_dias_pasados">Ayer</string>
+    <string name="text_button_actualizar_trans_cinco">Actualizar</string>
+
+
+
+    //Textos para reporte de compras - cartera
+    <string name="text_compras">COMPRAS</string>
+    <string name="text_wallet">CARTERA</string>
+    <string name="text_recargas">RECARGAS</string>
+    <string name="text_wplay">WPLAY</string>
+    <string name="text_soat">SOAT</string>
+    <string name="text_certificados">CERTIFICADOS</string>
+    <string name="text_total">TOTAL</string>
+    <string name="text_total_wallet">Total Compra</string>
+    <string name="text_deuda_inicial_wallet">Deuda Inicial</string>
+    <string name="text_deuda_total_wallet">Deuda Total</string>
+    <string name="text_abono_wallet">Abono</string>
+    <string name="text_deuda_final_wallet">Deuda Final</string>
+
+    //Textos Solicitud Saldo
+    <string name="text_cap_saldo_recargar">Valor</string>
+    <string name="text_boton_aceptar_cap_saldo_recargar">Recargar</string>
+    <string name="text_boton_cancelar_cap_saldo_recargar">Cancelar</string>
+    <string name="text_seleccionar_producto_solict_recarga">SELECCIONE UN PRODUCTO</string>
+
+    //Texttos Certificados
+    <string name="text_info_saldo">Informacion Saldo</string>
+    <string name="text_info_cap_matricula">Número de matricula</string>
+    <string name="text_cap_celular">Celular para Envio de Codigo</string>
+    <string name="text_cap_correo">Correo para Envio de Codigo</string>
+    <string name="text_cap_cap_correo">Correo para Envio de Codigo</string>
+    <string name="text_boton_validar_matricula">VALIDAR MATRICULA</string>
+    <string name="text_boton_cancelar_certificado_snr">CANCELAR</string>
+    <string name="text_boton_comprar_certificado_certificado_snr">COMPRAR MATRICULA</string>
+    <string name="text_cap_ciudad_letras">Ciudad</string>
+
+
+    //Textos para solicitar token
+    <string name="text_info_solict_token">Tu tiempo de sesion ha cauducado por favor, ingresa tu contraseña para iniciar sesion de nuevo.</string>
+
+
+    //Textos para seleccionar bolsa para realizar recarga
+    <string name="text_body_bolsa_recarga">Por favor seleccionar una bolsa para realizar la recarga</string>
+    <string name="text_radio_bolsa_botton_info">Descuento de GANANCIAS </string>
+    <string name="text_radio_normal_botton_info">Descuento normal</string>
+    <string name="text_aceptar_bolsa_recarga">Aceptar</string>
+    <string name="text_cancelar_bolsa_recarga">Cancelar</string>
+
+    //Texto contacto
+    <string name="text_tittle_contact">CONTÁCTANOS</string>
+    <string name="text_body_tel_one">Celular: 311-230-6725</string>
+    <string name="text_body_tel_two">Fíjo: (1) 704-9362</string>
+    <string name="text_body_footer">Pulsa cualquier número para contáctarnos. \n\nTu Red es una empresa multiproducto de recargas moviles y mucho mas. Solo contáctanos y estaremos en tu local o comercio.</string>
+    <string name="text_body_footer_two">www.tu-red.com.co</string>
+
+    //Texto Soat
+    <string name="text_soat_placa">Por favor ingrese su placa</string>
+    <string name="text_soat_cap_placa">Placa</string>
+    <string name="text_soat_button_placa_verif">VALIDAR PLACA</string>
+    <string name="text_continue_buy_soat">CONTINUAR COMPRA</string>
+    <string name="text_cancel_buy_soat">CANCELAR</string>
+
+
+    //Impresora
+    <string name="print_display">Display Mode</string>
+    <string name="print_text">Print Text</string>
+    <string name="print_english">Print English</string>
+    <string name="print_char">Print Char</string>
+    <string name="print_picture">Print Picture</string>
+    <string name="print_qrcode">Print QRcode</string>
+    <string name="print_barcode">Print Barcode</string>
+    <string name="print_self_check">Print Self Check</string>
+    <string name="print_init">Print Init</string>
+    <string name="print_query_length">Print Query Length</string>
+    <string name="print_three_lines">Print three Lines</string>
+    <string name="print_black_block">Print Black Block</string>
+    <string name="print_baidu_bill">Print Baidu Bill</string>
+    <string name="print_meituan_bill">Print Meituan Bill</string>
+    <string name="print_elemo_bill">Print Elemo Bill</string>
+    <string name="print_koubei_bill">Print Koubei Bill</string>
+    <string name="print_table">Print Table</string>
+    <string name="print_multi_content_test">Print Multi Content Test</string>
+    <string name="print_comprehensive_test">Print Comprehensive Test</string>
+    <string name="print_sunmi_mode">SunMi Mode</string>
+    <string name="print_Multithread_test">Print Multithread Test</string>
+    <string name="loop_print_test">Loop Print Test</string>
+    <string name="print_driver_error_test">Print Driver Error Test</string>
+    <string name="print_wave_test">Print wave Test</string>
+    <string name="motor_idling">Motor Idling 10000 Steps</string>
+    <string name="print_commond_input">Print Commond Input</string>
+    <string name="printer_run_paper_lines">Printer Run Paper</string>
+    <string name="reset_motor_high_temp_status">Rest Moter Heigh Temp Status</string>
+    <string name="out_of_paper">The printer is out of paper</string>
+    <string name="exists_paper">The printer paper is ready</string>
+    <string name="printer_is_working">The printer is working</string>
+    <string name="printer_high_temp_alarm">Printer high temperature alarm</string>
+    <string name="motor_high_temp_alarm">Motor high temperature alarm</string>
+    <string name="printer_current_task_print_complete">The print task has been printed</string>
+    <string name="printer_exception">Printer Exception</string>
+    <string name="unknown_error">unknown status</string>
+    <string name="switch_mode">Switch Mode</string>
+    <string name="exit">Exit</string>
+
+
+    //Ciudad Soat
+    <string-array name="ciudadSoat">
+        <item>MEDELLIN-(ANTIOQUIA)</item>
+        <item>ABEJORRAL-(ANTIOQUIA)</item>
+        <item>ABRIAQUI-(ANTIOQUIA)</item>
+        <item>ALEJANDRIA-(ANTIOQUIA)</item>
+        <item>AMAGA-(ANTIOQUIA)</item>
+        <item>AMALFI-(ANTIOQUIA)</item>
+        <item>ANDES-(ANTIOQUIA)</item>
+        <item>ANGELOPOLIS-(ANTIOQUIA)</item>
+        <item>ANGOSTURA-(ANTIOQUIA)</item>
+        <item>ANORI-(ANTIOQUIA)</item>
+        <item>SANTAFE DE ANTIOQUIA-(ANTIOQUIA)</item>
+        <item>ANZA-(ANTIOQUIA)</item>
+        <item>APARTADO-(ANTIOQUIA)</item>
+        <item>ARBOLETES-(ANTIOQUIA)</item>
+        <item>ARGELIA-(ANTIOQUIA)</item>
+        <item>ARMENIA-ANTIOQUIA-(ANTIOQUIA)</item>
+        <item>BARBOSA ANTIOQUIA-(ANTIOQUIA)</item>
+        <item>BELMIRA-(ANTIOQUIA)</item>
+        <item>BELLO-(ANTIOQUIA)</item>
+        <item>BETANIA-(ANTIOQUIA)</item>
+        <item>BETULIA-(ANTIOQUIA)</item>
+        <item>CIUDAD BOLIVAR-(ANTIOQUIA)</item>
+        <item>BRICEÑO-(ANTIOQUIA)</item>
+        <item>BURITICA-(ANTIOQUIA)</item>
+        <item>CACERES-(ANTIOQUIA)</item>
+        <item>CAICEDO-(ANTIOQUIA)</item>
+        <item>CALDAS-(ANTIOQUIA)</item>
+        <item>CAMPAMENTO-(ANTIOQUIA)</item>
+        <item>CAÑASGORDAS-(ANTIOQUIA)</item>
+        <item>CARACOLI-(ANTIOQUIA)</item>
+        <item>CARAMANTA-(ANTIOQUIA)</item>
+        <item>CAREPA-(ANTIOQUIA)</item>
+        <item>EL CARMEN DE VIBORAL-(ANTIOQUIA)</item>
+        <item>CAROLINA-(ANTIOQUIA)</item>
+        <item>CAUCASIA-(ANTIOQUIA)</item>
+        <item>CHIGORODO-(ANTIOQUIA)</item>
+        <item>CISNEROS-(ANTIOQUIA)</item>
+        <item>COCORNA-(ANTIOQUIA)</item>
+        <item>CONCEPCION-(ANTIOQUIA)</item>
+        <item>CONCORDIA-(ANTIOQUIA)</item>
+        <item>COPACABANA-(ANTIOQUIA)</item>
+        <item>DABEIBA-(ANTIOQUIA)</item>
+        <item>DON MATIAS-(ANTIOQUIA)</item>
+        <item>EBEJICO-(ANTIOQUIA)</item>
+        <item>EL BAGRE-(ANTIOQUIA)</item>
+        <item>ENTRERRIOS-(ANTIOQUIA)</item>
+        <item>ENVIGADO-(ANTIOQUIA)</item>
+        <item>FREDONIA-(ANTIOQUIA)</item>
+        <item>FRONTINO-(ANTIOQUIA)</item>
+        <item>GIRALDO-(ANTIOQUIA)</item>
+        <item>GIRARDOTA-(ANTIOQUIA)</item>
+        <item>GOMEZ PLATA-(ANTIOQUIA)</item>
+        <item>GRANADA-(ANTIOQUIA)</item>
+        <item>GUADALUPE-(ANTIOQUIA)</item>
+        <item>GUARNE-(ANTIOQUIA)</item>
+        <item>GUATAPE-(ANTIOQUIA)</item>
+        <item>HELICONIA-(ANTIOQUIA)</item>
+        <item>HISPANIA-(ANTIOQUIA)</item>
+        <item>ITAGUI-(ANTIOQUIA)</item>
+        <item>ITUANGO-(ANTIOQUIA)</item>
+        <item>JARDIN-(ANTIOQUIA)</item>
+        <item>JERICO-(ANTIOQUIA)</item>
+        <item>LA CEJA-(ANTIOQUIA)</item>
+        <item>LA ESTRELLA-(ANTIOQUIA)</item>
+        <item>LA PINTADA-(ANTIOQUIA)</item>
+        <item>LA UNION-(ANTIOQUIA)</item>
+        <item>LIBORINA-(ANTIOQUIA)</item>
+        <item>MACEO-(ANTIOQUIA)</item>
+        <item>MARINILLA-(ANTIOQUIA)</item>
+        <item>MONTEBELLO-(ANTIOQUIA)</item>
+        <item>MURINDO-(ANTIOQUIA)</item>
+        <item>MUTATA-(ANTIOQUIA)</item>
+        <item>NARIÑO-(ANTIOQUIA)</item>
+        <item>NECOCLI-(ANTIOQUIA)</item>
+        <item>NECHI-(ANTIOQUIA)</item>
+        <item>OLAYA-(ANTIOQUIA)</item>
+        <item>PEÐOL-(ANTIOQUIA)</item>
+        <item>PEQUE-(ANTIOQUIA)</item>
+        <item>PUEBLORRICO-(ANTIOQUIA)</item>
+        <item>PUERTO BERRIO-(ANTIOQUIA)</item>
+        <item>PUERTO NARE-(ANTIOQUIA)</item>
+        <item>PUERTO TRIUNFO-(ANTIOQUIA)</item>
+        <item>REMEDIOS-(ANTIOQUIA)</item>
+        <item>RETIRO-(ANTIOQUIA)</item>
+        <item>RIONEGRO-(ANTIOQUIA)</item>
+        <item>SABANALARGA-(ANTIOQUIA)</item>
+        <item>SABANETA-(ANTIOQUIA)</item>
+        <item>SALGAR-(ANTIOQUIA)</item>
+        <item>SAN ANDRES DE CUERQUIA-(ANTIOQUIA)</item>
+        <item>SAN CARLOS-(ANTIOQUIA)</item>
+        <item>SAN FRANCISCO-(ANTIOQUIA)</item>
+        <item>SAN JERONIMO-(ANTIOQUIA)</item>
+        <item>SAN JOSE DE LA MONTAÑA-(ANTIOQUIA)</item>
+        <item>SAN JUAN DE URABA-(ANTIOQUIA)</item>
+        <item>SAN LUIS-(ANTIOQUIA)</item>
+        <item>SAN PEDRO ANTIOQUIA-(ANTIOQUIA)</item>
+        <item>SAN PEDRO DE URABA-(ANTIOQUIA)</item>
+        <item>SAN RAFAEL-(ANTIOQUIA)</item>
+        <item>SAN ROQUE-(ANTIOQUIA)</item>
+        <item>SAN VICENTE-(ANTIOQUIA)</item>
+        <item>SANTA BARBARA-(ANTIOQUIA)</item>
+        <item>SANTA ROSA DE OSOS-(ANTIOQUIA)</item>
+        <item>SANTO DOMINGO-(ANTIOQUIA)</item>
+        <item>EL SANTUARIO-(ANTIOQUIA)</item>
+        <item>SEGOVIA-(ANTIOQUIA)</item>
+        <item>SONSON-(ANTIOQUIA)</item>
+        <item>SOPETRAN-(ANTIOQUIA)</item>
+        <item>TAMESIS-(ANTIOQUIA)</item>
+        <item>TARAZA-(ANTIOQUIA)</item>
+        <item>TARSO-(ANTIOQUIA)</item>
+        <item>TITIRIBI-(ANTIOQUIA)</item>
+        <item>TOLEDO-(ANTIOQUIA)</item>
+        <item>TURBO-(ANTIOQUIA)</item>
+        <item>URAMITA-(ANTIOQUIA)</item>
+        <item>URRAO-(ANTIOQUIA)</item>
+        <item>VALDIVIA-(ANTIOQUIA)</item>
+        <item>VALPARAISO-(ANTIOQUIA)</item>
+        <item>VEGACHI-(ANTIOQUIA)</item>
+        <item>VENECIA-(ANTIOQUIA)</item>
+        <item>VIGIA DEL FUERTE-(ANTIOQUIA)</item>
+        <item>YALI-(ANTIOQUIA)</item>
+        <item>YARUMAL-(ANTIOQUIA)</item>
+        <item>YOLOMBO-(ANTIOQUIA)</item>
+        <item>YONDO-(ANTIOQUIA)</item>
+        <item>ZARAGOZA-(ANTIOQUIA)</item>
+        <item>BARRANQUILLA-(ATLANTICO)</item>
+        <item>BARANOA-(ATLANTICO)</item>
+        <item>CAMPO DE LA CRUZ-(ATLANTICO)</item>
+        <item>CANDELARIA-(ATLANTICO)</item>
+        <item>GALAPA-(ATLANTICO)</item>
+        <item>JUAN DE ACOSTA-(ATLANTICO)</item>
+        <item>LURUACO-(ATLANTICO)</item>
+        <item>MALAMBO-(ATLANTICO)</item>
+        <item>MANATI-(ATLANTICO)</item>
+        <item>PALMAR DE VARELA-(ATLANTICO)</item>
+        <item>PIOJO-(ATLANTICO)</item>
+        <item>POLONUEVO-(ATLANTICO)</item>
+        <item>PONEDERA-(ATLANTICO)</item>
+        <item>PUERTO COLOMBIA-(ATLANTICO)</item>
+        <item>REPELON-(ATLANTICO)</item>
+        <item>SABANAGRANDE-(ATLANTICO)</item>
+        <item>SABANALARGA-(ATLANTICO)</item>
+        <item>SANTA LUCIA-(ATLANTICO)</item>
+        <item>SANTO TOMAS-(ATLANTICO)</item>
+        <item>SOLEDAD-(ATLANTICO)</item>
+        <item>SUAN-(ATLANTICO)</item>
+        <item>TUBARA-(ATLANTICO)</item>
+        <item>USIACURI-(ATLANTICO)</item>
+        <item>BOGOTA, D.C.-(BOGOTA)</item>
+        <item>CARTAGENA-(BOLIVAR)</item>
+        <item>ACHI-(BOLIVAR)</item>
+        <item>ALTOS DEL ROSARIO-(BOLIVAR)</item>
+        <item>ARENAL-(BOLIVAR)</item>
+        <item>ARJONA-(BOLIVAR)</item>
+        <item>ARROYOHONDO-(BOLIVAR)</item>
+        <item>BARRANCO DE LOBA-(BOLIVAR)</item>
+        <item>CALAMAR-(BOLIVAR)</item>
+        <item>CANTAGALLO-(BOLIVAR)</item>
+        <item>CICUCO-(BOLIVAR)</item>
+        <item>CORDOBA-(BOLIVAR)</item>
+        <item>CLEMENCIA-(BOLIVAR)</item>
+        <item>EL CARMEN DE BOLIVAR-(BOLIVAR)</item>
+        <item>EL GUAMO-(BOLIVAR)</item>
+        <item>EL PEÑON-(BOLIVAR)</item>
+        <item>HATILLO DE LOBA-(BOLIVAR)</item>
+        <item>MAGANGUE-(BOLIVAR)</item>
+        <item>MAHATES-(BOLIVAR)</item>
+        <item>MARGARITA-(BOLIVAR)</item>
+        <item>MARIA LA BAJA-(BOLIVAR)</item>
+        <item>MONTECRISTO-(BOLIVAR)</item>
+        <item>MOMPOS-(BOLIVAR)</item>
+        <item>NOROSI-(BOLIVAR)</item>
+        <item>MORALES-(BOLIVAR)</item>
+        <item>PINILLOS-(BOLIVAR)</item>
+        <item>REGIDOR-(BOLIVAR)</item>
+        <item>RIO VIEJO-(BOLIVAR)</item>
+        <item>SAN CRISTOBAL-(BOLIVAR)</item>
+        <item>SAN ESTANISLAO-(BOLIVAR)</item>
+        <item>SAN FERNANDO-(BOLIVAR)</item>
+        <item>SAN JACINTO-(BOLIVAR)</item>
+        <item>SAN JACINTO DEL CAUCA-(BOLIVAR)</item>
+        <item>SAN JUAN NEPOMUCENO-(BOLIVAR)</item>
+        <item>SAN MARTIN DE LOBA-(BOLIVAR)</item>
+        <item>SAN PABLO-(BOLIVAR)</item>
+        <item>SANTA CATALINA-(BOLIVAR)</item>
+        <item>SANTA ROSA-(BOLIVAR)</item>
+        <item>SANTA ROSA DEL SUR-(BOLIVAR)</item>
+        <item>SIMITI-(BOLIVAR)</item>
+        <item>SOPLAVIENTO-(BOLIVAR)</item>
+        <item>TALAIGUA NUEVO-(BOLIVAR)</item>
+        <item>TIQUISIO-(BOLIVAR)</item>
+        <item>TURBACO-(BOLIVAR)</item>
+        <item>TURBANA-(BOLIVAR)</item>
+        <item>VILLANUEVA-(BOLIVAR)</item>
+        <item>ZAMBRANO-(BOLIVAR)</item>
+        <item>TUNJA-(BOYACA)</item>
+        <item>ALMEIDA-(BOYACA)</item>
+        <item>AQUITANIA-(BOYACA)</item>
+        <item>ARCABUCO-(BOYACA)</item>
+        <item>BELEN-(BOYACA)</item>
+        <item>BERBEO-(BOYACA)</item>
+        <item>BETEITIVA-(BOYACA)</item>
+        <item>BOAVITA-(BOYACA)</item>
+        <item>BOYACA-(BOYACA)</item>
+        <item>BRICEÑO-(BOYACA)</item>
+        <item>BUENAVISTA-(BOYACA)</item>
+        <item>BUSBANZA-(BOYACA)</item>
+        <item>CALDAS BOYACA-(BOYACA)</item>
+        <item>CAMPOHERMOSO-(BOYACA)</item>
+        <item>CERINZA-(BOYACA)</item>
+        <item>CHINAVITA-(BOYACA)</item>
+        <item>CHIQUINQUIRA-(BOYACA)</item>
+        <item>CHISCAS-(BOYACA)</item>
+        <item>CHITA-(BOYACA)</item>
+        <item>CHITARAQUE-(BOYACA)</item>
+        <item>CHIVATA-(BOYACA)</item>
+        <item>CIENEGA-(BOYACA)</item>
+        <item>COMBITA-(BOYACA)</item>
+        <item>COPER-(BOYACA)</item>
+        <item>CORRALES-(BOYACA)</item>
+        <item>COVARACHIA-(BOYACA)</item>
+        <item>CUBARA-(BOYACA)</item>
+        <item>CUCAITA-(BOYACA)</item>
+        <item>CUITIVA-(BOYACA)</item>
+        <item>CHIQUIZA-(BOYACA)</item>
+        <item>CHIVOR-(BOYACA)</item>
+        <item>DUITAMA-(BOYACA)</item>
+        <item>EL COCUY-(BOYACA)</item>
+        <item>EL ESPINO-(BOYACA)</item>
+        <item>FIRAVITOBA-(BOYACA)</item>
+        <item>FLORESTA-(BOYACA)</item>
+        <item>GACHANTIVA-(BOYACA)</item>
+        <item>GAMEZA-(BOYACA)</item>
+        <item>GARAGOA-(BOYACA)</item>
+        <item>GUACAMAYAS-(BOYACA)</item>
+        <item>GUATEQUE-(BOYACA)</item>
+        <item>GUAYATA-(BOYACA)</item>
+        <item>GsICAN-(BOYACA)</item>
+        <item>IZA-(BOYACA)</item>
+        <item>JENESANO-(BOYACA)</item>
+        <item>JERICO-(BOYACA)</item>
+        <item>LABRANZAGRANDE-(BOYACA)</item>
+        <item>LA CAPILLA-(BOYACA)</item>
+        <item>LA VICTORIA-(BOYACA)</item>
+        <item>LA UVITA-(BOYACA)</item>
+        <item>VILLA DE LEYVA-(BOYACA)</item>
+        <item>MACANAL-(BOYACA)</item>
+        <item>MARIPI-(BOYACA)</item>
+        <item>MIRAFLORES-(BOYACA)</item>
+        <item>MONGUA-(BOYACA)</item>
+        <item>MONGUI-(BOYACA)</item>
+        <item>MONIQUIRA-(BOYACA)</item>
+        <item>MOTAVITA-(BOYACA)</item>
+        <item>MUZO-(BOYACA)</item>
+        <item>NOBSA-(BOYACA)</item>
+        <item>NUEVO COLON-(BOYACA)</item>
+        <item>OICATA-(BOYACA)</item>
+        <item>OTANCHE-(BOYACA)</item>
+        <item>PACHAVITA-(BOYACA)</item>
+        <item>PAEZ-(BOYACA)</item>
+        <item>PAIPA-(BOYACA)</item>
+        <item>PAJARITO-(BOYACA)</item>
+        <item>PANQUEBA-(BOYACA)</item>
+        <item>PAUNA-(BOYACA)</item>
+        <item>PAYA-(BOYACA)</item>
+        <item>PAZ DE RIO-(BOYACA)</item>
+        <item>PESCA-(BOYACA)</item>
+        <item>PISBA-(BOYACA)</item>
+        <item>PUERTO BOYACA-(BOYACA)</item>
+        <item>QUIPAMA-(BOYACA)</item>
+        <item>RAMIRIQUI-(BOYACA)</item>
+        <item>RAQUIRA-(BOYACA)</item>
+        <item>RONDON-(BOYACA)</item>
+        <item>SABOYA-(BOYACA)</item>
+        <item>SACHICA-(BOYACA)</item>
+        <item>SAMACA-(BOYACA)</item>
+        <item>SAN EDUARDO-(BOYACA)</item>
+        <item>SAN JOSE DE PARE-(BOYACA)</item>
+        <item>SAN LUIS DE GACENO-(BOYACA)</item>
+        <item>SAN MATEO-(BOYACA)</item>
+        <item>SAN MIGUEL DE SEMA-(BOYACA)</item>
+        <item>SAN PABLO DE BORBUR-(BOYACA)</item>
+        <item>SANTANA-(BOYACA)</item>
+        <item>SANTA MARIA-(BOYACA)</item>
+        <item>SANTA ROSA DE VITERBO-(BOYACA)</item>
+        <item>SANTA SOFIA-(BOYACA)</item>
+        <item>SATIVANORTE-(BOYACA)</item>
+        <item>SATIVASUR-(BOYACA)</item>
+        <item>SIACHOQUE-(BOYACA)</item>
+        <item>SOATA-(BOYACA)</item>
+        <item>SOCOTA-(BOYACA)</item>
+        <item>SOCHA-(BOYACA)</item>
+        <item>SOGAMOSO-(BOYACA)</item>
+        <item>SOMONDOCO-(BOYACA)</item>
+        <item>SORA-(BOYACA)</item>
+        <item>SOTAQUIRA-(BOYACA)</item>
+        <item>SORACA-(BOYACA)</item>
+        <item>SUSACON-(BOYACA)</item>
+        <item>SUTAMARCHAN-(BOYACA)</item>
+        <item>SUTATENZA-(BOYACA)</item>
+        <item>TASCO-(BOYACA)</item>
+        <item>TENZA-(BOYACA)</item>
+        <item>TIBANA-(BOYACA)</item>
+        <item>TIBASOSA-(BOYACA)</item>
+        <item>TINJACA-(BOYACA)</item>
+        <item>TIPACOQUE-(BOYACA)</item>
+        <item>TOCA-(BOYACA)</item>
+        <item>TOGsI-(BOYACA)</item>
+        <item>TOPAGA-(BOYACA)</item>
+        <item>TOTA-(BOYACA)</item>
+        <item>TUNUNGUA-(BOYACA)</item>
+        <item>TURMEQUE-(BOYACA)</item>
+        <item>TUTA-(BOYACA)</item>
+        <item>TUTAZA-(BOYACA)</item>
+        <item>UMBITA-(BOYACA)</item>
+        <item>VENTAQUEMADA-(BOYACA)</item>
+        <item>VIRACACHA-(BOYACA)</item>
+        <item>ZETAQUIRA-(BOYACA)</item>
+        <item>MANIZALES-(CALDAS)</item>
+        <item>AGUADAS-(CALDAS)</item>
+        <item>ANSERMA-(CALDAS)</item>
+        <item>ARANZAZU-(CALDAS)</item>
+        <item>BELALCAZAR-(CALDAS)</item>
+        <item>CHINCHINA-(CALDAS)</item>
+        <item>FILADELFIA-(CALDAS)</item>
+        <item>LA DORADA-(CALDAS)</item>
+        <item>LA MERCED-(CALDAS)</item>
+        <item>MANZANARES-(CALDAS)</item>
+        <item>MARMATO-(CALDAS)</item>
+        <item>MARQUETALIA-(CALDAS)</item>
+        <item>MARULANDA-(CALDAS)</item>
+        <item>NEIRA-(CALDAS)</item>
+        <item>NORCASIA-(CALDAS)</item>
+        <item>PACORA-(CALDAS)</item>
+        <item>PALESTINA-(CALDAS)</item>
+        <item>PENSILVANIA-(CALDAS)</item>
+        <item>RIOSUCIO-(CALDAS)</item>
+        <item>RISARALDA-(CALDAS)</item>
+        <item>SALAMINA-(CALDAS)</item>
+        <item>SAMANA-(CALDAS)</item>
+        <item>SAN JOSE-(CALDAS)</item>
+        <item>SUPIA-(CALDAS)</item>
+        <item>VICTORIA-(CALDAS)</item>
+        <item>VILLAMARIA-(CALDAS)</item>
+        <item>VITERBO-(CALDAS)</item>
+        <item>FLORENCIA-(CAQUETA)</item>
+        <item>ALBANIA-(CAQUETA)</item>
+        <item>BELEN DE LOS ANDAQUIES-(CAQUETA)</item>
+        <item>CARTAGENA DEL CHAIRA-(CAQUETA)</item>
+        <item>CURILLO-(CAQUETA)</item>
+        <item>EL DONCELLO-(CAQUETA)</item>
+        <item>EL PAUJIL-(CAQUETA)</item>
+        <item>LA MONTAÑITA-(CAQUETA)</item>
+        <item>MILAN-(CAQUETA)</item>
+        <item>MORELIA-(CAQUETA)</item>
+        <item>PUERTO RICO-(CAQUETA)</item>
+        <item>SAN JOSE DEL FRAGUA-(CAQUETA)</item>
+        <item>SAN VICENTE DEL CAGUAN-(CAQUETA)</item>
+        <item>SOLANO-(CAQUETA)</item>
+        <item>SOLITA-(CAQUETA)</item>
+        <item>VALPARAISO-(CAQUETA)</item>
+        <item>POPAYAN-(CAUCA)</item>
+        <item>ALMAGUER-(CAUCA)</item>
+        <item>ARGELIA-(CAUCA)</item>
+        <item>BALBOA-(CAUCA)</item>
+        <item>BOLIVAR-(CAUCA)</item>
+        <item>BUENOS AIRES-(CAUCA)</item>
+        <item>CAJIBIO-(CAUCA)</item>
+        <item>CALDONO-(CAUCA)</item>
+        <item>CALOTO-(CAUCA)</item>
+        <item>CORINTO-(CAUCA)</item>
+        <item>EL TAMBO-(CAUCA)</item>
+        <item>FLORENCIA-(CAUCA)</item>
+        <item>GUACHENE-(CAUCA)</item>
+        <item>GUAPI-(CAUCA)</item>
+        <item>INZA-(CAUCA)</item>
+        <item>JAMBALO-(CAUCA)</item>
+        <item>LA SIERRA-(CAUCA)</item>
+        <item>LA VEGA-(CAUCA)</item>
+        <item>LOPEZ-(CAUCA)</item>
+        <item>MERCADERES-(CAUCA)</item>
+        <item>MIRANDA-(CAUCA)</item>
+        <item>MORALES-(CAUCA)</item>
+        <item>PADILLA-(CAUCA)</item>
+        <item>PAEZ-(CAUCA)</item>
+        <item>PATIA-(CAUCA)</item>
+        <item>PIAMONTE-(CAUCA)</item>
+        <item>PIENDAMO-(CAUCA)</item>
+        <item>PUERTO TEJADA-(CAUCA)</item>
+        <item>PURACE-(CAUCA)</item>
+        <item>ROSAS-(CAUCA)</item>
+        <item>SAN SEBASTIAN-(CAUCA)</item>
+        <item>SANTANDER DE QUILICHAO-(CAUCA)</item>
+        <item>SANTA ROSA-(CAUCA)</item>
+        <item>SILVIA-(CAUCA)</item>
+        <item>SOTARA-(CAUCA)</item>
+        <item>SUAREZ-(CAUCA)</item>
+        <item>SUCRE-(CAUCA)</item>
+        <item>TIMBIO-(CAUCA)</item>
+        <item>TIMBIQUI-(CAUCA)</item>
+        <item>TORIBIO-(CAUCA)</item>
+        <item>TOTORO-(CAUCA)</item>
+        <item>VILLA RICA-(CAUCA)</item>
+        <item>VALLEDUPAR-(CESAR)</item>
+        <item>AGUACHICA-(CESAR)</item>
+        <item>AGUSTIN CODAZZI-(CESAR)</item>
+        <item>ASTREA-(CESAR)</item>
+        <item>BECERRIL-(CESAR)</item>
+        <item>BOSCONIA-(CESAR)</item>
+        <item>CHIMICHAGUA-(CESAR)</item>
+        <item>CHIRIGUANA-(CESAR)</item>
+        <item>CURUMANI-(CESAR)</item>
+        <item>EL COPEY-(CESAR)</item>
+        <item>EL PASO-(CESAR)</item>
+        <item>GAMARRA-(CESAR)</item>
+        <item>GONZALEZ-(CESAR)</item>
+        <item>LA GLORIA-(CESAR)</item>
+        <item>LA JAGUA DE IBIRICO-(CESAR)</item>
+        <item>MANAURE-(CESAR)</item>
+        <item>PAILITAS-(CESAR)</item>
+        <item>PELAYA-(CESAR)</item>
+        <item>PUEBLO BELLO-(CESAR)</item>
+        <item>RIO DE ORO-(CESAR)</item>
+        <item>LA PAZ-(CESAR)</item>
+        <item>SAN ALBERTO-(CESAR)</item>
+        <item>SAN DIEGO-(CESAR)</item>
+        <item>SAN MARTIN-(CESAR)</item>
+        <item>TAMALAMEQUE-(CESAR)</item>
+        <item>MONTERIA-(CORDOBA)</item>
+        <item>AYAPEL-(CORDOBA)</item>
+        <item>BUENAVISTA-(CORDOBA)</item>
+        <item>CANALETE-(CORDOBA)</item>
+        <item>CERETE-(CORDOBA)</item>
+        <item>CHIMA-(CORDOBA)</item>
+        <item>CHINU-(CORDOBA)</item>
+        <item>CIENAGA DE ORO-(CORDOBA)</item>
+        <item>COTORRA-(CORDOBA)</item>
+        <item>LA APARTADA-(CORDOBA)</item>
+        <item>LORICA-(CORDOBA)</item>
+        <item>LOS CORDOBAS-(CORDOBA)</item>
+        <item>MOMIL-(CORDOBA)</item>
+        <item>MONTELIBANO-(CORDOBA)</item>
+        <item>MOÑITOS-(CORDOBA)</item>
+        <item>PLANETA RICA-(CORDOBA)</item>
+        <item>PUEBLO NUEVO-(CORDOBA)</item>
+        <item>PUERTO ESCONDIDO-(CORDOBA)</item>
+        <item>PUERTO LIBERTADOR-(CORDOBA)</item>
+        <item>PURISIMA-(CORDOBA)</item>
+        <item>SAHAGUN-(CORDOBA)</item>
+        <item>SAN ANDRES SOTAVENTO-(CORDOBA)</item>
+        <item>SAN ANTERO-(CORDOBA)</item>
+        <item>SAN BERNARDO DEL VIENTO-(CORDOBA)</item>
+        <item>SAN CARLOS-(CORDOBA)</item>
+        <item>SAN PELAYO-(CORDOBA)</item>
+        <item>TIERRALTA-(CORDOBA)</item>
+        <item>VALENCIA-(CORDOBA)</item>
+        <item>AGUA DE DIOS-(CUNDINAMARCA)</item>
+        <item>ALBAN-(CUNDINAMARCA)</item>
+        <item>ANAPOIMA-(CUNDINAMARCA)</item>
+        <item>ANOLAIMA-(CUNDINAMARCA)</item>
+        <item>ARBELAEZ-(CUNDINAMARCA)</item>
+        <item>BELTRAN-(CUNDINAMARCA)</item>
+        <item>BITUIMA-(CUNDINAMARCA)</item>
+        <item>BOJACA-(CUNDINAMARCA)</item>
+        <item>CABRERA-(CUNDINAMARCA)</item>
+        <item>CACHIPAY-(CUNDINAMARCA)</item>
+        <item>CAJICA-(CUNDINAMARCA)</item>
+        <item>CAPARRAPI-(CUNDINAMARCA)</item>
+        <item>CAQUEZA-(CUNDINAMARCA)</item>
+        <item>CARMEN DE CARUPA-(CUNDINAMARCA)</item>
+        <item>CHAGUANI-(CUNDINAMARCA)</item>
+        <item>CHIA-(CUNDINAMARCA)</item>
+        <item>CHIPAQUE-(CUNDINAMARCA)</item>
+        <item>CHOACHI-(CUNDINAMARCA)</item>
+        <item>CHOCONTA-(CUNDINAMARCA)</item>
+        <item>COGUA-(CUNDINAMARCA)</item>
+        <item>COTA-(CUNDINAMARCA)</item>
+        <item>CUCUNUBA-(CUNDINAMARCA)</item>
+        <item>EL COLEGIO-(CUNDINAMARCA)</item>
+        <item>EL PEÑON-(CUNDINAMARCA)</item>
+        <item>EL ROSAL-(CUNDINAMARCA)</item>
+        <item>FACATATIVA-(CUNDINAMARCA)</item>
+        <item>FOMEQUE-(CUNDINAMARCA)</item>
+        <item>FOSCA-(CUNDINAMARCA)</item>
+        <item>FUNZA-(CUNDINAMARCA)</item>
+        <item>FUQUENE-(CUNDINAMARCA)</item>
+        <item>FUSAGASUGA-(CUNDINAMARCA)</item>
+        <item>GACHALA-(CUNDINAMARCA)</item>
+        <item>GACHANCIPA-(CUNDINAMARCA)</item>
+        <item>GACHETA-(CUNDINAMARCA)</item>
+        <item>GAMA-(CUNDINAMARCA)</item>
+        <item>GIRARDOT-(CUNDINAMARCA)</item>
+        <item>GRANADA-(CUNDINAMARCA)</item>
+        <item>GUACHETA-(CUNDINAMARCA)</item>
+        <item>GUADUAS-(CUNDINAMARCA)</item>
+        <item>GUASCA-(CUNDINAMARCA)</item>
+        <item>GUATAQUI-(CUNDINAMARCA)</item>
+        <item>GUATAVITA-(CUNDINAMARCA)</item>
+        <item>GUAYABAL DE SIQUIMA-(CUNDINAMARCA)</item>
+        <item>GUAYABETAL-(CUNDINAMARCA)</item>
+        <item>GUTIERREZ-(CUNDINAMARCA)</item>
+        <item>JERUSALEN-(CUNDINAMARCA)</item>
+        <item>JUNIN-(CUNDINAMARCA)</item>
+        <item>LA CALERA-(CUNDINAMARCA)</item>
+        <item>LA MESA-(CUNDINAMARCA)</item>
+        <item>LA PALMA-(CUNDINAMARCA)</item>
+        <item>LA PEÑA-(CUNDINAMARCA)</item>
+        <item>LA VEGA-(CUNDINAMARCA)</item>
+        <item>LENGUAZAQUE-(CUNDINAMARCA)</item>
+        <item>MACHETA-(CUNDINAMARCA)</item>
+        <item>MADRID-(CUNDINAMARCA)</item>
+        <item>MANTA-(CUNDINAMARCA)</item>
+        <item>MEDINA-(CUNDINAMARCA)</item>
+        <item>MOSQUERA-(CUNDINAMARCA)</item>
+        <item>NARIÑO-(CUNDINAMARCA)</item>
+        <item>NEMOCON-(CUNDINAMARCA)</item>
+        <item>NILO-(CUNDINAMARCA)</item>
+        <item>NIMAIMA-(CUNDINAMARCA)</item>
+        <item>NOCAIMA-(CUNDINAMARCA)</item>
+        <item>VENECIA-(CUNDINAMARCA)</item>
+        <item>PACHO-(CUNDINAMARCA)</item>
+        <item>PAIME-(CUNDINAMARCA)</item>
+        <item>PANDI-(CUNDINAMARCA)</item>
+        <item>PARATEBUENO-(CUNDINAMARCA)</item>
+        <item>PASCA-(CUNDINAMARCA)</item>
+        <item>PUERTO SALGAR-(CUNDINAMARCA)</item>
+        <item>PULI-(CUNDINAMARCA)</item>
+        <item>QUEBRADANEGRA-(CUNDINAMARCA)</item>
+        <item>QUETAME-(CUNDINAMARCA)</item>
+        <item>QUIPILE-(CUNDINAMARCA)</item>
+        <item>APULO-(CUNDINAMARCA)</item>
+        <item>RICAURTE-(CUNDINAMARCA)</item>
+        <item>SAN ANTONIO DEL TEQUENDAMA-(CUNDINAMARCA)</item>
+        <item>SAN BERNARDO-(CUNDINAMARCA)</item>
+        <item>SAN CAYETANO-(CUNDINAMARCA)</item>
+        <item>SAN FRANCISCO-(CUNDINAMARCA)</item>
+        <item>SAN JUAN DE RIO SECO-(CUNDINAMARCA)</item>
+        <item>SASAIMA-(CUNDINAMARCA)</item>
+        <item>SESQUILE-(CUNDINAMARCA)</item>
+        <item>SIBATE-(CUNDINAMARCA)</item>
+        <item>SILVANIA-(CUNDINAMARCA)</item>
+        <item>SIMIJACA-(CUNDINAMARCA)</item>
+        <item>SOACHA-(CUNDINAMARCA)</item>
+        <item>SOPO-(CUNDINAMARCA)</item>
+        <item>SUBACHOQUE-(CUNDINAMARCA)</item>
+        <item>SUESCA-(CUNDINAMARCA)</item>
+        <item>SUPATA-(CUNDINAMARCA)</item>
+        <item>SUSA-(CUNDINAMARCA)</item>
+        <item>SUTATAUSA-(CUNDINAMARCA)</item>
+        <item>TABIO-(CUNDINAMARCA)</item>
+        <item>TAUSA-(CUNDINAMARCA)</item>
+        <item>TENA-(CUNDINAMARCA)</item>
+        <item>TENJO-(CUNDINAMARCA)</item>
+        <item>TIBACUY-(CUNDINAMARCA)</item>
+        <item>TIBIRITA-(CUNDINAMARCA)</item>
+        <item>TOCAIMA-(CUNDINAMARCA)</item>
+        <item>TOCANCIPA-(CUNDINAMARCA)</item>
+        <item>TOPAIPI-(CUNDINAMARCA)</item>
+        <item>UBALA-(CUNDINAMARCA)</item>
+        <item>UBAQUE-(CUNDINAMARCA)</item>
+        <item>VILLA DE SAN DIEGO DE UBATE-(CUNDINAMARCA)</item>
+        <item>UNE-(CUNDINAMARCA)</item>
+        <item>UTICA-(CUNDINAMARCA)</item>
+        <item>VERGARA-(CUNDINAMARCA)</item>
+        <item>VIANI-(CUNDINAMARCA)</item>
+        <item>VILLAGOMEZ-(CUNDINAMARCA)</item>
+        <item>VILLAPINZON-(CUNDINAMARCA)</item>
+        <item>VILLETA-(CUNDINAMARCA)</item>
+        <item>VIOTA-(CUNDINAMARCA)</item>
+        <item>YACOPI-(CUNDINAMARCA)</item>
+        <item>ZIPACON-(CUNDINAMARCA)</item>
+        <item>ZIPAQUIRA-(CUNDINAMARCA)</item>
+        <item>QUIBDO-(CHOCO)</item>
+        <item>ACANDI-(CHOCO)</item>
+        <item>ALTO BAUDO-(CHOCO)</item>
+        <item>ATRATO-(CHOCO)</item>
+        <item>BAGADO-(CHOCO)</item>
+        <item>BAHIA SOLANO-(CHOCO)</item>
+        <item>BAJO BAUDO-(CHOCO)</item>
+        <item>BOJAYA-(CHOCO)</item>
+        <item>EL CANTON DEL SAN PABLO-(CHOCO)</item>
+        <item>CARMEN DEL DARIEN-(CHOCO)</item>
+        <item>CERTEGUI-(CHOCO)</item>
+        <item>CONDOTO-(CHOCO)</item>
+        <item>EL CARMEN DE ATRATO-(CHOCO)</item>
+        <item>EL LITORAL DEL SAN JUAN-(CHOCO)</item>
+        <item>ISTMINA-(CHOCO)</item>
+        <item>JURADO-(CHOCO)</item>
+        <item>LLORO-(CHOCO)</item>
+        <item>MEDIO ATRATO-(CHOCO)</item>
+        <item>MEDIO BAUDO-(CHOCO)</item>
+        <item>MEDIO SAN JUAN-(CHOCO)</item>
+        <item>NOVITA-(CHOCO)</item>
+        <item>NUQUI-(CHOCO)</item>
+        <item>RIO IRO-(CHOCO)</item>
+        <item>RIO QUITO-(CHOCO)</item>
+        <item>RIOSUCIO-(CHOCO)</item>
+        <item>SAN JOSE DEL PALMAR-(CHOCO)</item>
+        <item>SIPI-(CHOCO)</item>
+        <item>TADO-(CHOCO)</item>
+        <item>UNGUIA-(CHOCO)</item>
+        <item>UNION PANAMERICANA-(CHOCO)</item>
+        <item>NEIVA-(HUILA)</item>
+        <item>ACEVEDO-(HUILA)</item>
+        <item>AGRADO-(HUILA)</item>
+        <item>AIPE-(HUILA)</item>
+        <item>ALGECIRAS-(HUILA)</item>
+        <item>ALTAMIRA-(HUILA)</item>
+        <item>BARAYA-(HUILA)</item>
+        <item>CAMPOALEGRE-(HUILA)</item>
+        <item>COLOMBIA-(HUILA)</item>
+        <item>ELIAS-(HUILA)</item>
+        <item>GARZON-(HUILA)</item>
+        <item>GIGANTE-(HUILA)</item>
+        <item>GUADALUPE-(HUILA)</item>
+        <item>HOBO-(HUILA)</item>
+        <item>IQUIRA-(HUILA)</item>
+        <item>ISNOS-(HUILA)</item>
+        <item>LA ARGENTINA-(HUILA)</item>
+        <item>LA PLATA-(HUILA)</item>
+        <item>NATAGA-(HUILA)</item>
+        <item>OPORAPA-(HUILA)</item>
+        <item>PAICOL-(HUILA)</item>
+        <item>PALERMO-(HUILA)</item>
+        <item>PALESTINA-(HUILA)</item>
+        <item>PITAL-(HUILA)</item>
+        <item>PITALITO-(HUILA)</item>
+        <item>RIVERA-(HUILA)</item>
+        <item>SALADOBLANCO-(HUILA)</item>
+        <item>SAN AGUSTIN-(HUILA)</item>
+        <item>SANTA MARIA-(HUILA)</item>
+        <item>SUAZA-(HUILA)</item>
+        <item>TARQUI-(HUILA)</item>
+        <item>TESALIA-(HUILA)</item>
+        <item>TELLO-(HUILA)</item>
+        <item>TERUEL-(HUILA)</item>
+        <item>TIMANA-(HUILA)</item>
+        <item>VILLAVIEJA-(HUILA)</item>
+        <item>YAGUARA-(HUILA)</item>
+        <item>RIOHACHA-(LA GUAJIRA)</item>
+        <item>ALBANIA-(LA GUAJIRA)</item>
+        <item>BARRANCAS-(LA GUAJIRA)</item>
+        <item>DIBULLA-(LA GUAJIRA)</item>
+        <item>DISTRACCION-(LA GUAJIRA)</item>
+        <item>EL MOLINO-(LA GUAJIRA)</item>
+        <item>FONSECA-(LA GUAJIRA)</item>
+        <item>HATONUEVO-(LA GUAJIRA)</item>
+        <item>LA JAGUA DEL PILAR-(LA GUAJIRA)</item>
+        <item>MAICAO-(LA GUAJIRA)</item>
+        <item>MANAURE-(LA GUAJIRA)</item>
+        <item>SAN JUAN DEL CESAR-(LA GUAJIRA)</item>
+        <item>URIBIA-(LA GUAJIRA)</item>
+        <item>URUMITA-(LA GUAJIRA)</item>
+        <item>VILLANUEVA-(LA GUAJIRA)</item>
+        <item>SANTA MARTA-(MAGDALENA)</item>
+        <item>ALGARROBO-(MAGDALENA)</item>
+        <item>ARACATACA-(MAGDALENA)</item>
+        <item>ARIGUANI-(MAGDALENA)</item>
+        <item>CERRO SAN ANTONIO-(MAGDALENA)</item>
+        <item>CHIBOLO-(MAGDALENA)</item>
+        <item>CIENAGA-(MAGDALENA)</item>
+        <item>CONCORDIA-(MAGDALENA)</item>
+        <item>EL BANCO-(MAGDALENA)</item>
+        <item>EL PIÑON-(MAGDALENA)</item>
+        <item>EL RETEN-(MAGDALENA)</item>
+        <item>FUNDACION-(MAGDALENA)</item>
+        <item>GUAMAL-(MAGDALENA)</item>
+        <item>NUEVA GRANADA-(MAGDALENA)</item>
+        <item>PEDRAZA-(MAGDALENA)</item>
+        <item>PIJIÑO DEL CARMEN-(MAGDALENA)</item>
+        <item>PIVIJAY-(MAGDALENA)</item>
+        <item>PLATO-(MAGDALENA)</item>
+        <item>PUEBLOVIEJO-(MAGDALENA)</item>
+        <item>REMOLINO-(MAGDALENA)</item>
+        <item>SABANAS DE SAN ANGEL-(MAGDALENA)</item>
+        <item>SALAMINA-(MAGDALENA)</item>
+        <item>SAN SEBASTIAN DE BUENAVISTA-(MAGDALENA)</item>
+        <item>SAN ZENON-(MAGDALENA)</item>
+        <item>SANTA ANA-(MAGDALENA)</item>
+        <item>SANTA BARBARA DE PINTO-(MAGDALENA)</item>
+        <item>SITIONUEVO-(MAGDALENA)</item>
+        <item>TENERIFE-(MAGDALENA)</item>
+        <item>ZAPAYAN-(MAGDALENA)</item>
+        <item>ZONA BANANERA-(MAGDALENA)</item>
+        <item>VILLAVICENCIO-(META)</item>
+        <item>ACACIAS-(META)</item>
+        <item>BARRANCA DE UPIA-(META)</item>
+        <item>CABUYARO-(META)</item>
+        <item>CASTILLA LA NUEVA-(META)</item>
+        <item>CUBARRAL-(META)</item>
+        <item>CUMARAL-(META)</item>
+        <item>EL CALVARIO-(META)</item>
+        <item>EL CASTILLO-(META)</item>
+        <item>EL DORADO-(META)</item>
+        <item>FUENTE DE ORO-(META)</item>
+        <item>GRANADA-(META)</item>
+        <item>GUAMAL-(META)</item>
+        <item>MAPIRIPAN-(META)</item>
+        <item>MESETAS-(META)</item>
+        <item>LA MACARENA-(META)</item>
+        <item>URIBE-(META)</item>
+        <item>LEJANIAS-(META)</item>
+        <item>PUERTO CONCORDIA-(META)</item>
+        <item>PUERTO GAITAN-(META)</item>
+        <item>PUERTO LOPEZ-(META)</item>
+        <item>PUERTO LLERAS-(META)</item>
+        <item>PUERTO RICO-(META)</item>
+        <item>RESTREPO-(META)</item>
+        <item>SAN CARLOS DE GUAROA-(META)</item>
+        <item>SAN JUAN DE ARAMA-(META)</item>
+        <item>SAN JUANITO-(META)</item>
+        <item>SAN MARTIN-META-(META)</item>
+        <item>VISTAHERMOSA-(META)</item>
+        <item>PASTO-(NARIÑO)</item>
+        <item>ALBAN-(NARIÑO)</item>
+        <item>ALDANA-(NARIÑO)</item>
+        <item>ANCUYA-(NARIÑO)</item>
+        <item>ARBOLEDA-(NARIÑO)</item>
+        <item>BARBACOAS-(NARIÑO)</item>
+        <item>BELEN-(NARIÑO)</item>
+        <item>BUESACO-(NARIÑO)</item>
+        <item>COLON-(NARIÑO)</item>
+        <item>CONSACA-(NARIÑO)</item>
+        <item>CONTADERO-(NARIÑO)</item>
+        <item>CORDOBA-(NARIÑO)</item>
+        <item>CUASPUD-(NARIÑO)</item>
+        <item>CUMBAL-(NARIÑO)</item>
+        <item>CUMBITARA-(NARIÑO)</item>
+        <item>CHACHAGsI-(NARIÑO)</item>
+        <item>EL CHARCO-(NARIÑO)</item>
+        <item>EL PEÑOL-(NARIÑO)</item>
+        <item>EL ROSARIO-(NARIÑO)</item>
+        <item>EL TABLON DE GOMEZ-(NARIÑO)</item>
+        <item>EL TAMBO-(NARIÑO)</item>
+        <item>FUNES-(NARIÑO)</item>
+        <item>GUACHUCAL-(NARIÑO)</item>
+        <item>GUAITARILLA-(NARIÑO)</item>
+        <item>GUALMATAN-(NARIÑO)</item>
+        <item>ILES-(NARIÑO)</item>
+        <item>IMUES-(NARIÑO)</item>
+        <item>IPIALES-(NARIÑO)</item>
+        <item>LA CRUZ-(NARIÑO)</item>
+        <item>LA FLORIDA-(NARIÑO)</item>
+        <item>LA LLANADA-(NARIÑO)</item>
+        <item>LA TOLA-(NARIÑO)</item>
+        <item>LA UNION-(NARIÑO)</item>
+        <item>LEIVA-(NARIÑO)</item>
+        <item>LINARES-(NARIÑO)</item>
+        <item>LOS ANDES-(NARIÑO)</item>
+        <item>MAGsI-(NARIÑO)</item>
+        <item>MALLAMA-(NARIÑO)</item>
+        <item>MOSQUERA-(NARIÑO)</item>
+        <item>NARIÑO-(NARIÑO)</item>
+        <item>OLAYA HERRERA-(NARIÑO)</item>
+        <item>OSPINA-(NARIÑO)</item>
+        <item>FRANCISCO PIZARRO-(NARIÑO)</item>
+        <item>POLICARPA-(NARIÑO)</item>
+        <item>POTOSI-(NARIÑO)</item>
+        <item>PROVIDENCIA-(NARIÑO)</item>
+        <item>PUERRES-(NARIÑO)</item>
+        <item>PUPIALES-(NARIÑO)</item>
+        <item>RICAURTE-(NARIÑO)</item>
+        <item>ROBERTO PAYAN-(NARIÑO)</item>
+        <item>SAMANIEGO-(NARIÑO)</item>
+        <item>SANDONA-(NARIÑO)</item>
+        <item>SAN BERNARDO-(NARIÑO)</item>
+        <item>SAN LORENZO-(NARIÑO)</item>
+        <item>SAN PABLO-(NARIÑO)</item>
+        <item>SAN PEDRO DE CARTAGO-(NARIÑO)</item>
+        <item>SANTA BARBARA-(NARIÑO)</item>
+        <item>SANTACRUZ-(NARIÑO)</item>
+        <item>SAPUYES-(NARIÑO)</item>
+        <item>TAMINANGO-(NARIÑO)</item>
+        <item>TANGUA-(NARIÑO)</item>
+        <item>SAN ANDRES DE TUMACO-(NARIÑO)</item>
+        <item>TUQUERRES-(NARIÑO)</item>
+        <item>YACUANQUER-(NARIÑO)</item>
+        <item>CUCUTA-(N. DE SANTANDER)</item>
+        <item>ABREGO-(N. DE SANTANDER)</item>
+        <item>ARBOLEDAS-(N. DE SANTANDER)</item>
+        <item>BOCHALEMA-(N. DE SANTANDER)</item>
+        <item>BUCARASICA-(N. DE SANTANDER)</item>
+        <item>CACOTA-(N. DE SANTANDER)</item>
+        <item>CACHIRA-(N. DE SANTANDER)</item>
+        <item>CHINACOTA-(N. DE SANTANDER)</item>
+        <item>CHITAGA-(N. DE SANTANDER)</item>
+        <item>CONVENCION-(N. DE SANTANDER)</item>
+        <item>CUCUTILLA-(N. DE SANTANDER)</item>
+        <item>DURANIA-(N. DE SANTANDER)</item>
+        <item>EL CARMEN-(N. DE SANTANDER)</item>
+        <item>EL TARRA-(N. DE SANTANDER)</item>
+        <item>EL ZULIA-(N. DE SANTANDER)</item>
+        <item>GRAMALOTE-(N. DE SANTANDER)</item>
+        <item>HACARI-(N. DE SANTANDER)</item>
+        <item>HERRAN-(N. DE SANTANDER)</item>
+        <item>LABATECA-(N. DE SANTANDER)</item>
+        <item>LA ESPERANZA-(N. DE SANTANDER)</item>
+        <item>LA PLAYA-(N. DE SANTANDER)</item>
+        <item>LOS PATIOS-(N. DE SANTANDER)</item>
+        <item>LOURDES-(N. DE SANTANDER)</item>
+        <item>MUTISCUA-(N. DE SANTANDER)</item>
+        <item>OCAÑA-(N. DE SANTANDER)</item>
+        <item>PAMPLONA-(N. DE SANTANDER)</item>
+        <item>PAMPLONITA-(N. DE SANTANDER)</item>
+        <item>PUERTO SANTANDER-(N. DE SANTANDER)</item>
+        <item>RAGONVALIA-(N. DE SANTANDER)</item>
+        <item>SALAZAR-(N. DE SANTANDER)</item>
+        <item>SAN CALIXTO-(N. DE SANTANDER)</item>
+        <item>SAN CAYETANO-(N. DE SANTANDER)</item>
+        <item>SANTIAGO-(N. DE SANTANDER)</item>
+        <item>SARDINATA-(N. DE SANTANDER)</item>
+        <item>SILOS-(N. DE SANTANDER)</item>
+        <item>TEORAMA-(N. DE SANTANDER)</item>
+        <item>TIBU-(N. DE SANTANDER)</item>
+        <item>TOLEDO-(N. DE SANTANDER)</item>
+        <item>VILLA CARO-(N. DE SANTANDER)</item>
+        <item>VILLA DEL ROSARIO-(N. DE SANTANDER)</item>
+        <item>ARMENIA-(QUINDIO)</item>
+        <item>BUENAVISTA-(QUINDIO)</item>
+        <item>CALARCA-(QUINDIO)</item>
+        <item>CIRCASIA-(QUINDIO)</item>
+        <item>CORDOBA-(QUINDIO)</item>
+        <item>FILANDIA-(QUINDIO)</item>
+        <item>GENOVA-(QUINDIO)</item>
+        <item>LA TEBAIDA-(QUINDIO)</item>
+        <item>MONTENEGRO-(QUINDIO)</item>
+        <item>PIJAO-(QUINDIO)</item>
+        <item>QUIMBAYA-(QUINDIO)</item>
+        <item>SALENTO-(QUINDIO)</item>
+        <item>PEREIRA-(RISARALDA)</item>
+        <item>APIA-(RISARALDA)</item>
+        <item>BALBOA-(RISARALDA)</item>
+        <item>BELEN DE UMBRIA-(RISARALDA)</item>
+        <item>DOSQUEBRADAS-(RISARALDA)</item>
+        <item>GUATICA-(RISARALDA)</item>
+        <item>LA CELIA-(RISARALDA)</item>
+        <item>LA VIRGINIA-(RISARALDA)</item>
+        <item>MARSELLA-(RISARALDA)</item>
+        <item>MISTRATO-(RISARALDA)</item>
+        <item>PUEBLO RICO-(RISARALDA)</item>
+        <item>QUINCHIA-(RISARALDA)</item>
+        <item>SANTA ROSA DE CABAL-(RISARALDA)</item>
+        <item>SANTUARIO-(RISARALDA)</item>
+        <item>BUCARAMANGA-(SANTANDER)</item>
+        <item>AGUADA-(SANTANDER)</item>
+        <item>ALBANIA-(SANTANDER)</item>
+        <item>ARATOCA-(SANTANDER)</item>
+        <item>BARBOSA-(SANTANDER)</item>
+        <item>BARICHARA-(SANTANDER)</item>
+        <item>BARRANCABERMEJA-(SANTANDER)</item>
+        <item>BETULIA-(SANTANDER)</item>
+        <item>BOLIVAR-(SANTANDER)</item>
+        <item>CABRERA-(SANTANDER)</item>
+        <item>CALIFORNIA-(SANTANDER)</item>
+        <item>CAPITANEJO-(SANTANDER)</item>
+        <item>CARCASI-(SANTANDER)</item>
+        <item>CEPITA-(SANTANDER)</item>
+        <item>CERRITO-(SANTANDER)</item>
+        <item>CHARALA-(SANTANDER)</item>
+        <item>CHARTA-(SANTANDER)</item>
+        <item>CHIMA-(SANTANDER)</item>
+        <item>CHIPATA-(SANTANDER)</item>
+        <item>CIMITARRA-(SANTANDER)</item>
+        <item>CONCEPCION-(SANTANDER)</item>
+        <item>CONFINES-(SANTANDER)</item>
+        <item>CONTRATACION-(SANTANDER)</item>
+        <item>COROMORO-(SANTANDER)</item>
+        <item>CURITI-(SANTANDER)</item>
+        <item>EL CARMEN DE CHUCURI-(SANTANDER)</item>
+        <item>EL GUACAMAYO-(SANTANDER)</item>
+        <item>EL PEÑON-(SANTANDER)</item>
+        <item>EL PLAYON-(SANTANDER)</item>
+        <item>ENCINO-(SANTANDER)</item>
+        <item>ENCISO-(SANTANDER)</item>
+        <item>FLORIAN-(SANTANDER)</item>
+        <item>FLORIDABLANCA-(SANTANDER)</item>
+        <item>GALAN-(SANTANDER)</item>
+        <item>GAMBITA-(SANTANDER)</item>
+        <item>GIRON-(SANTANDER)</item>
+        <item>GUACA-(SANTANDER)</item>
+        <item>GUADALUPE-(SANTANDER)</item>
+        <item>GUAPOTA-(SANTANDER)</item>
+        <item>GUAVATA-(SANTANDER)</item>
+        <item>GsEPSA-(SANTANDER)</item>
+        <item>HATO-(SANTANDER)</item>
+        <item>JESUS MARIA-(SANTANDER)</item>
+        <item>JORDAN-(SANTANDER)</item>
+        <item>LA BELLEZA-(SANTANDER)</item>
+        <item>LANDAZURI-(SANTANDER)</item>
+        <item>LA PAZ-(SANTANDER)</item>
+        <item>LEBRIJA-(SANTANDER)</item>
+        <item>LOS SANTOS-(SANTANDER)</item>
+        <item>MACARAVITA-(SANTANDER)</item>
+        <item>MALAGA-(SANTANDER)</item>
+        <item>MATANZA-(SANTANDER)</item>
+        <item>MOGOTES-(SANTANDER)</item>
+        <item>MOLAGAVITA-(SANTANDER)</item>
+        <item>OCAMONTE-(SANTANDER)</item>
+        <item>OIBA-(SANTANDER)</item>
+        <item>ONZAGA-(SANTANDER)</item>
+        <item>PALMAR-(SANTANDER)</item>
+        <item>PALMAS DEL SOCORRO-(SANTANDER)</item>
+        <item>PARAMO-(SANTANDER)</item>
+        <item>PIEDECUESTA-(SANTANDER)</item>
+        <item>PINCHOTE-(SANTANDER)</item>
+        <item>PUENTE NACIONAL-(SANTANDER)</item>
+        <item>PUERTO PARRA-(SANTANDER)</item>
+        <item>PUERTO WILCHES-(SANTANDER)</item>
+        <item>RIONEGRO SANTANDER-(SANTANDER)</item>
+        <item>SABANA DE TORRES-(SANTANDER)</item>
+        <item>SAN ANDRES-(SANTANDER)</item>
+        <item>SAN BENITO-(SANTANDER)</item>
+        <item>SAN GIL-(SANTANDER)</item>
+        <item>SAN JOAQUIN-(SANTANDER)</item>
+        <item>SAN JOSE DE MIRANDA-(SANTANDER)</item>
+        <item>SAN MIGUEL-(SANTANDER)</item>
+        <item>SAN VICENTE DE CHUCURI-(SANTANDER)</item>
+        <item>SANTA BARBARA-(SANTANDER)</item>
+        <item>SANTA HELENA DEL OPON-(SANTANDER)</item>
+        <item>SIMACOTA-(SANTANDER)</item>
+        <item>SOCORRO-(SANTANDER)</item>
+        <item>SUAITA-(SANTANDER)</item>
+        <item>SUCRE-(SANTANDER)</item>
+        <item>SURATA-(SANTANDER)</item>
+        <item>TONA-(SANTANDER)</item>
+        <item>VALLE DE SAN JOSE-(SANTANDER)</item>
+        <item>VELEZ-(SANTANDER)</item>
+        <item>VETAS-(SANTANDER)</item>
+        <item>VILLANUEVA-(SANTANDER)</item>
+        <item>ZAPATOCA-(SANTANDER)</item>
+        <item>SINCELEJO-(SUCRE)</item>
+        <item>BUENAVISTA-(SUCRE)</item>
+        <item>CAIMITO-(SUCRE)</item>
+        <item>COLOSO-(SUCRE)</item>
+        <item>COROZAL-(SUCRE)</item>
+        <item>COVEÑAS-(SUCRE)</item>
+        <item>CHALAN-(SUCRE)</item>
+        <item>EL ROBLE-(SUCRE)</item>
+        <item>GALERAS-(SUCRE)</item>
+        <item>GUARANDA-(SUCRE)</item>
+        <item>LA UNION-(SUCRE)</item>
+        <item>LOS PALMITOS-(SUCRE)</item>
+        <item>MAJAGUAL-(SUCRE)</item>
+        <item>MORROA-(SUCRE)</item>
+        <item>OVEJAS-(SUCRE)</item>
+        <item>PALMITO-(SUCRE)</item>
+        <item>SAMPUES-(SUCRE)</item>
+        <item>SAN BENITO ABAD-(SUCRE)</item>
+        <item>SAN JUAN DE BETULIA-(SUCRE)</item>
+        <item>SAN MARCOS-(SUCRE)</item>
+        <item>SAN ONOFRE-(SUCRE)</item>
+        <item>SAN PEDRO SUCRE-(SUCRE)</item>
+        <item>SAN LUIS DE SINCE-(SUCRE)</item>
+        <item>SUCRE-(SUCRE)</item>
+        <item>SANTIAGO DE TOLU-(SUCRE)</item>
+        <item>TOLU VIEJO-(SUCRE)</item>
+        <item>IBAGUE-(TOLIMA)</item>
+        <item>ALPUJARRA-(TOLIMA)</item>
+        <item>ALVARADO-(TOLIMA)</item>
+        <item>AMBALEMA-(TOLIMA)</item>
+        <item>ANZOATEGUI-(TOLIMA)</item>
+        <item>ARMERO-(TOLIMA)</item>
+        <item>ATACO-(TOLIMA)</item>
+        <item>CAJAMARCA-(TOLIMA)</item>
+        <item>CARMEN DE APICALA-(TOLIMA)</item>
+        <item>CASABIANCA-(TOLIMA)</item>
+        <item>CHAPARRAL-(TOLIMA)</item>
+        <item>COELLO-(TOLIMA)</item>
+        <item>COYAIMA-(TOLIMA)</item>
+        <item>CUNDAY-(TOLIMA)</item>
+        <item>DOLORES-(TOLIMA)</item>
+        <item>ESPINAL-(TOLIMA)</item>
+        <item>FALAN-(TOLIMA)</item>
+        <item>FLANDES-(TOLIMA)</item>
+        <item>FRESNO-(TOLIMA)</item>
+        <item>GUAMO-(TOLIMA)</item>
+        <item>HERVEO-(TOLIMA)</item>
+        <item>HONDA-(TOLIMA)</item>
+        <item>ICONONZO-(TOLIMA)</item>
+        <item>LERIDA-(TOLIMA)</item>
+        <item>LIBANO-(TOLIMA)</item>
+        <item>MARIQUITA-(TOLIMA)</item>
+        <item>MELGAR-(TOLIMA)</item>
+        <item>MURILLO-(TOLIMA)</item>
+        <item>NATAGAIMA-(TOLIMA)</item>
+        <item>ORTEGA-(TOLIMA)</item>
+        <item>PALOCABILDO-(TOLIMA)</item>
+        <item>PIEDRAS-(TOLIMA)</item>
+        <item>PLANADAS-(TOLIMA)</item>
+        <item>PRADO-(TOLIMA)</item>
+        <item>PURIFICACION-(TOLIMA)</item>
+        <item>RIOBLANCO-(TOLIMA)</item>
+        <item>RONCESVALLES-(TOLIMA)</item>
+        <item>ROVIRA-(TOLIMA)</item>
+        <item>SALDAÑA-(TOLIMA)</item>
+        <item>SAN ANTONIO-(TOLIMA)</item>
+        <item>SAN LUIS-(TOLIMA)</item>
+        <item>SANTA ISABEL-(TOLIMA)</item>
+        <item>SUAREZ-(TOLIMA)</item>
+        <item>VALLE DE SAN JUAN-(TOLIMA)</item>
+        <item>VENADILLO-(TOLIMA)</item>
+        <item>VILLAHERMOSA-(TOLIMA)</item>
+        <item>VILLARRICA-(TOLIMA)</item>
+        <item>CALI-(VALLE DEL CAUCA)</item>
+        <item>ALCALA-(VALLE DEL CAUCA)</item>
+        <item>ANDALUCIA-(VALLE DEL CAUCA)</item>
+        <item>ANSERMANUEVO-(VALLE DEL CAUCA)</item>
+        <item>ARGELIA-(VALLE DEL CAUCA)</item>
+        <item>BOLIVAR-(VALLE DEL CAUCA)</item>
+        <item>BUENAVENTURA-(VALLE DEL CAUCA)</item>
+        <item>GUADALAJARA DE BUGA-(VALLE DEL CAUCA)</item>
+        <item>BUGALAGRANDE-(VALLE DEL CAUCA)</item>
+        <item>CAICEDONIA-(VALLE DEL CAUCA)</item>
+        <item>CALIMA-(VALLE DEL CAUCA)</item>
+        <item>CANDELARIA-(VALLE DEL CAUCA)</item>
+        <item>CARTAGO-(VALLE DEL CAUCA)</item>
+        <item>DAGUA-(VALLE DEL CAUCA)</item>
+        <item>EL AGUILA-(VALLE DEL CAUCA)</item>
+        <item>EL CAIRO-(VALLE DEL CAUCA)</item>
+        <item>EL CERRITO-(VALLE DEL CAUCA)</item>
+        <item>EL DOVIO-(VALLE DEL CAUCA)</item>
+        <item>FLORIDA-(VALLE DEL CAUCA)</item>
+        <item>GINEBRA-(VALLE DEL CAUCA)</item>
+        <item>GUACARI-(VALLE DEL CAUCA)</item>
+        <item>JAMUNDI-(VALLE DEL CAUCA)</item>
+        <item>LA CUMBRE-(VALLE DEL CAUCA)</item>
+        <item>LA UNION-(VALLE DEL CAUCA)</item>
+        <item>LA VICTORIA-(VALLE DEL CAUCA)</item>
+        <item>OBANDO-(VALLE DEL CAUCA)</item>
+        <item>PALMIRA-(VALLE DEL CAUCA)</item>
+        <item>PRADERA-(VALLE DEL CAUCA)</item>
+        <item>RESTREPO-(VALLE DEL CAUCA)</item>
+        <item>RIOFRIO-(VALLE DEL CAUCA)</item>
+        <item>ROLDANILLO-(VALLE DEL CAUCA)</item>
+        <item>SAN PEDRO VALLE DEL CAUCA-(VALLE DEL CAUCA)</item>
+        <item>SEVILLA-(VALLE DEL CAUCA)</item>
+        <item>TORO-(VALLE DEL CAUCA)</item>
+        <item>TRUJILLO-(VALLE DEL CAUCA)</item>
+        <item>TULUA-(VALLE DEL CAUCA)</item>
+        <item>ULLOA-(VALLE DEL CAUCA)</item>
+        <item>VERSALLES-(VALLE DEL CAUCA)</item>
+        <item>VIJES-(VALLE DEL CAUCA)</item>
+        <item>YOTOCO-(VALLE DEL CAUCA)</item>
+        <item>YUMBO-(VALLE DEL CAUCA)</item>
+        <item>ZARZAL-(VALLE DEL CAUCA)</item>
+        <item>ARAUCA-(ARAUCA)</item>
+        <item>ARAUQUITA-(ARAUCA)</item>
+        <item>CRAVO NORTE-(ARAUCA)</item>
+        <item>FORTUL-(ARAUCA)</item>
+        <item>PUERTO RONDON-(ARAUCA)</item>
+        <item>SARAVENA-(ARAUCA)</item>
+        <item>TAME-(ARAUCA)</item>
+        <item>YOPAL-(CASANARE)</item>
+        <item>AGUAZUL-(CASANARE)</item>
+        <item>CHAMEZA-(CASANARE)</item>
+        <item>HATO COROZAL-(CASANARE)</item>
+        <item>LA SALINA-(CASANARE)</item>
+        <item>MANI-(CASANARE)</item>
+        <item>MONTERREY-(CASANARE)</item>
+        <item>NUNCHIA-(CASANARE)</item>
+        <item>OROCUE-(CASANARE)</item>
+        <item>PAZ DE ARIPORO-(CASANARE)</item>
+        <item>PORE-(CASANARE)</item>
+        <item>RECETOR-(CASANARE)</item>
+        <item>SABANALARGA-(CASANARE)</item>
+        <item>SACAMA-(CASANARE)</item>
+        <item>SAN LUIS DE PALENQUE-(CASANARE)</item>
+        <item>TAMARA-(CASANARE)</item>
+        <item>TAURAMENA-(CASANARE)</item>
+        <item>TRINIDAD-(CASANARE)</item>
+        <item>VILLANUEVA-(CASANARE)</item>
+        <item>MOCOA-(PUTUMAYO)</item>
+        <item>COLON-(PUTUMAYO)</item>
+        <item>ORITO-(PUTUMAYO)</item>
+        <item>PUERTO ASIS-(PUTUMAYO)</item>
+        <item>PUERTO CAICEDO-(PUTUMAYO)</item>
+        <item>PUERTO GUZMAN-(PUTUMAYO)</item>
+        <item>LEGUIZAMO-(PUTUMAYO)</item>
+        <item>SIBUNDOY-(PUTUMAYO)</item>
+        <item>SAN FRANCISCO-(PUTUMAYO)</item>
+        <item>SAN MIGUEL-(PUTUMAYO)</item>
+        <item>SANTIAGO-(PUTUMAYO)</item>
+        <item>VALLE DEL GUAMUEZ-(PUTUMAYO)</item>
+        <item>VILLAGARZON-(PUTUMAYO)</item>
+        <item>SAN ANDRES-(SAN ANDRES)</item>
+        <item>PROVIDENCIA-(SAN ANDRES)</item>
+        <item>LETICIA-(AMAZONAS)</item>
+        <item>EL ENCANTO-(AMAZONAS)</item>
+        <item>LA CHORRERA-(AMAZONAS)</item>
+        <item>LA PEDRERA-(AMAZONAS)</item>
+        <item>LA VICTORIA-(AMAZONAS)</item>
+        <item>MIRITI - PARANA-(AMAZONAS)</item>
+        <item>PUERTO ALEGRIA-(AMAZONAS)</item>
+        <item>PUERTO ARICA-(AMAZONAS)</item>
+        <item>PUERTO NARIÑO-(AMAZONAS)</item>
+        <item>PUERTO SANTANDER-(AMAZONAS)</item>
+        <item>TARAPACA-(AMAZONAS)</item>
+        <item>INIRIDA-(GUAINIA)</item>
+        <item>BARRANCO MINAS-(GUAINIA)</item>
+        <item>MAPIRIPANA-(GUAINIA)</item>
+        <item>SAN FELIPE-(GUAINIA)</item>
+        <item>PUERTO COLOMBIA-(GUAINIA)</item>
+        <item>LA GUADALUPE-(GUAINIA)</item>
+        <item>CACAHUAL-(GUAINIA)</item>
+        <item>PANA PANA-(GUAINIA)</item>
+        <item>MORICHAL-(GUAINIA)</item>
+        <item>SAN JOSE DEL GUAVIARE-(GUAVIARE)</item>
+        <item>CALAMAR-(GUAVIARE)</item>
+        <item>EL RETORNO-(GUAVIARE)</item>
+        <item>MIRAFLORES-(GUAVIARE)</item>
+        <item>MITU-(VAUPES)</item>
+        <item>CARURU-(VAUPES)</item>
+        <item>PACOA-(VAUPES)</item>
+        <item>TARAIRA-(VAUPES)</item>
+        <item>PAPUNAUA-(VAUPES)</item>
+        <item>YAVARATE-(VAUPES)</item>
+        <item>PUERTO CARREÑO-(VICHADA)</item>
+        <item>LA PRIMAVERA-(VICHADA)</item>
+        <item>SANTA ROSALIA-(VICHADA)</item>
+        <item>CUMARIBO-(VICHADA)</item>
+
+    </string-array>
+
+    //Tipos Documentos Soat
+    <string-array name="tipoDocumentoSoat">
+        <item>C.C</item>
+        <item>C.E.</item>
+        <item>NIT</item>
+        <item>T.I.</item>
+        <item>PASS</item>
+    </string-array>
+
+
+</resources>

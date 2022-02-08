@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorInitBack">
+
+        <LinearLayout
+            android:id="@+id/lyt_button"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonBuscarReportFiveLast"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_purp"
+            android:onClick="onClick"
+            android:text="@string/text_button_actualizar_trans_cinco"
+            android:textAllCaps="false"
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/lyt_button"
+            android:id="@+id/headboardFiveTrans"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/colorInitBack">
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/headboardFiveTrans"
+                android:id="@+id/RecyclerViewFiveLastTrans"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
