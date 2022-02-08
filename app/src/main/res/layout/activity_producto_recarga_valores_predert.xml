@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PagPrincipalRecargaValoresPredert">
+
+
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_pag_producto_recarga" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorInitBack" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollLayout"
+        android:layout_below="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/body_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/headboard"
+            android:background="@color/white"
+            android:orientation="vertical">
+         <ImageView
+            android:contentDescription="@string/text_logo_init_producto_recarga"
+            android:id="@+id/logoProductoRecarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"/>
+
+
+            <EditText
+                android:id="@+id/capNumRecarga"
+                android:layout_width="250sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/edittext_rounded"
+                android:drawableRight="@drawable/ic_phone_iphone_color_login_24dp"
+                android:hint="@string/text_num_recarga"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:inputType="number"
+                android:textColor="@color/colorInitBack"
+                android:textColorHint="@color/colorInitBack"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+
+
+            <TextView
+                android:id="@+id/textValorSeleccionado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/colorInitBack"
+                android:textSize="20sp" />
+
+
+            <!--<Button
+                android:id="@+id/buttonRecarga"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_purp"
+                android:onClick="onClick"
+                android:text="RECARGA"
+                android:textAllCaps="false"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/buttonRecargaPaquete"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_purp"
+                android:onClick="onClick"
+                android:text="PAQUETES"
+                android:textAllCaps="false"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp" />-->
+
+        </LinearLayout>
+
+
+
+          <LinearLayout
+                android:id="@+id/body_two"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/body_one"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textValorPredert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorInitBack"
+                    android:textSize="20sp" />
+
+
+
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/RecyclerViewPagRecargaValorPredert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"/>
+
+              <EditText
+                  android:id="@+id/capValorRecarga"
+                  android:layout_width="250sp"
+                  android:layout_height="40sp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="5sp"
+                  android:background="@drawable/edittext_rounded"
+                  android:hint="@string/text_valor_recarga"
+                  android:paddingLeft="10sp"
+                  android:paddingRight="10sp"
+                  android:inputType="numberDecimal"
+                  android:textColor="@color/colorInitBack"
+                  android:textColorHint="@color/colorInitBack"
+                  android:textSize="15sp"
+                  android:maxLines="1"
+                  android:singleLine="true"/>
+
+              <Button
+                  android:id="@+id/buttonCancelarValorPredeterminado"
+                  android:layout_width="150dp"
+                  android:layout_height="40dp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/button_purp"
+                  android:onClick="onClick"
+                  android:text="@string/text_boton_cancelar_valor_recarga"
+                  android:textAllCaps="false"
+                  android:textColor="@color/ic_launcher_background"
+                  android:textSize="15sp" />
+
+              <Button
+                  android:id="@+id/buttonAceptarRecarga"
+                  android:layout_width="150dp"
+                  android:layout_height="40dp"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/button_purp"
+                  android:onClick="onClick"
+                  android:text="@string/text_boton_confirmar_valor_recarga"
+                  android:textAllCaps="false"
+                  android:textColor="@color/ic_launcher_background"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLoginButtonBody">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textSize="15sp"
+            android:id="@+id/tvNombre"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textSize="15sp"
+            android:id="@+id/tvInformacion"
+            android:layout_below="@+id/tvNombre"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/white"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5"
+            android:id="@+id/linea">
+
+        </View>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

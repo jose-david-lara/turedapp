@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="verde54b45c">#54b45c</color>
+
+    //Colores de Splash
+    <color name="colorSplash">#6e84bc</color>
+
+    //Colores de Init
+    <color name="colorInitBack">#302c4c</color>
+    <color name="colorInitButton">#d85484</color>
+
+
+    //Colores de Login
+    <color name="colorLoginBackBody">#f0ecfc</color>
+    <color name="colorLoginButtonBody">#58448c</color>
+
+    //Colores Menu Principal
+    <color name="colorBackMenuPrincp">#cfcfcf</color>
+    <color name="colorBackCardViewMenuPrincp">#3f9bd4</color>
+
+    //Colores Menu Productos
+    <color name="colorBackMenuProductos">#002283</color>
+
+</resources>

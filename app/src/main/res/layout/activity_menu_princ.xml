@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorInitBack"
+    tools:context=".activity.MenuPrincActivity">
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:background="@color/colorInitBack">
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar_login" />
+
+
+
+            <LinearLayout
+                android:layout_marginTop="60sp"
+                android:id="@+id/headboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/colorInitBack">
+
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/RecyclerViewMenuPrincp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+
+                <Button
+                    android:id="@+id/buttonCloseApp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_purp"
+                    android:onClick="onClick"
+                    android:text="@string/text_close_app"
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:radius="0.1dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="7dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonCerrarSesion"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_rosado"
+                    android:onClick="onClick"
+                    android:text="@string/text_cerrar_sesion"
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:radius="0.1dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="7dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonActInfo"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_purp"
+                    android:onClick="onClick"
+                    android:text="@string/text_act_info"
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:radius="0.1dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="7dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonCategorias"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_purp"
+                    android:onClick="onClick"
+                    android:text="@string/text_contact_info"
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:radius="0.1dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="7dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

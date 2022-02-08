@@ -1,0 +1,65 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackCardViewMenuPrincp">
+
+        <ImageView
+            android:id="@+id/imagenConsulSaldo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorBackCardViewMenuPrincp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvNombreConsulSaldo"
+            android:layout_toRightOf="@+id/imagenConsulSaldo"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvSaldoConsulSaldo"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/imagenConsulSaldo"
+            android:layout_below="@+id/tvNombreConsulSaldo"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/colorBackCardViewMenuPrincp"
+            android:layout_below="@+id/tvSaldoConsulSaldo"
+            android:id="@+id/lineaEnd"
+            android:layout_toRightOf="@+id/imagenConsulSaldo"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5"
+            android:id="@+id/linea">
+        </View>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

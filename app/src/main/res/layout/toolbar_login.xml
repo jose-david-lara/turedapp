@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="13dp"
+    android:background="@color/colorLoginBackBody">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="40sp">
+
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8sp"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/ic_action_button_rosa_back" />
+
+        <ImageView
+            android:id="@+id/iconoUsuarioRol"
+            android:layout_width="40sp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/buttonBack"
+            android:layout_toRightOf="@+id/buttonBack"
+            android:layout_marginEnd="8sp"
+            android:layout_marginRight="8sp" />
+
+        <TextView
+            android:id="@+id/tittle_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toEndOf="@+id/iconoUsuarioRol"
+            android:layout_toRightOf="@+id/iconoUsuarioRol"
+            android:gravity="center"
+            android:text=""
+            android:typeface="monospace"
+            android:textStyle="bold"
+            style="@android:style/Widget.Holo.Button.Borderless"
+            android:textColor="@color/colorInitBack"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/buttonInfo"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignBottom="@+id/buttonBack"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_action_info_user" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

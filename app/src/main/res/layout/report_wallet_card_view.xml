@@ -1,0 +1,142 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackCardViewMenuPrincp">
+
+        <ImageView
+            android:id="@+id/imagenWallet"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorBackCardViewMenuPrincp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvNombreWallet"
+            android:layout_toRightOf="@+id/imagenWallet"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvFechaWallet"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/imagenWallet"
+            android:layout_below="@+id/tvNombreWallet"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="right"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/colorBackCardViewMenuPrincp"
+            android:layout_below="@+id/tvFechaWallet"
+            android:id="@+id/lineaBody"
+            android:layout_toRightOf="@+id/imagenWallet"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvWalletRecargas"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/imagenWallet"
+            android:layout_below="@+id/lineaBody"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvWalletWplay"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/imagenWallet"
+            android:layout_below="@+id/tvWalletRecargas"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvWalletSoat"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/imagenWallet"
+            android:layout_below="@+id/tvWalletWplay"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvWalletCertificados"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/imagenWallet"
+            android:layout_below="@+id/tvWalletSoat"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/colorBackCardViewMenuPrincp"
+            android:layout_below="@+id/tvWalletCertificados"
+            android:id="@+id/lineaBody_one"
+            android:layout_toRightOf="@+id/imagenWallet"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvWalletAbono"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/imagenWallet"
+            android:layout_below="@+id/lineaBody_one"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorLoginBackBody"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="@color/colorBackCardViewMenuPrincp"
+            android:layout_below="@+id/tvWalletAbono"
+            android:id="@+id/lineaEnd_one"
+            android:layout_toRightOf="@+id/imagenWallet"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5"
+            android:id="@+id/lineaEnd_two"
+            android:layout_toRightOf="@+id/imagenWallet">
+        </View>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
